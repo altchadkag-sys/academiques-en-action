@@ -9,7 +9,7 @@ export default function Home() {
               Académiques en Action
             </h1>
             <p className="text-sm text-gray-600">
-              Laboratoire de pensée africaine & internationale
+              Laboratoire R & RA — Réflexion & Référence Africaine
             </p>
           </div>
 
