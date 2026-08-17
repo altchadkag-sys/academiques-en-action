@@ -20,7 +20,7 @@ export default function Home() {
             <a href="#mission" className="hover:text-blue-700">
               Notre mission
             </a>
-            <a href="#recherche" className="hover:text-blue-700">
+            <a href="/recherche" className="hover:text-blue-700">
               Recherche
             </a>
             <a href="#formation" className="hover:text-blue-700">
