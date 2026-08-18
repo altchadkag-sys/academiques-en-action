@@ -6,7 +6,7 @@ export default function Home() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
           <div>
             <h1 className="text-2xl font-bold text-blue-900">
-              Académiques en Action
+              Académiques en Action 
             </h1>
             <p className="text-sm text-gray-600">
               Laboratoire R & RA — Réflexion & Référence Africaine
