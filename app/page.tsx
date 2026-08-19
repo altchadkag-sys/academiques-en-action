@@ -10,7 +10,7 @@ export default function Home() {
             </h1>
             <p className="text-sm text-gray-600">
               Laboratoire R & RA — Réflexion & Référence Africaine
-            </p>
+            </p> 
           </div>
 
           <nav className="hidden gap-6 md:flex">
@@ -142,6 +142,56 @@ export default function Home() {
           </p>
         </div>
       </section>
+      {/* Axes de recherche */}
+      <section id="axes" className="bg-white px-6 py-20">
+        <div className="mx-auto max-w-6xl">
+          <p className="text-sm font-semibold uppercase tracking-widest text-blue-700">
+            Nos axes de recherche
+          </p>
+
+          <h2 className="mt-3 text-3xl font-bold text-gray-900 md:text-4xl">
+            Comprendre, analyser et contribuer.
+          </h2>
+
+          <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-600">
+            Académiques en Action développe une réflexion scientifique
+            attentive aux réalités africaines et aux grands enjeux
+            contemporains de l’éducation, des sociétés et du savoir.
+          </p>
+
+          <div className="mt-12 grid gap-6 md:grid-cols-3">
+            <article className="rounded-2xl border border-gray-200 p-7 shadow-sm">
+              <h3 className="text-xl font-bold text-blue-900">
+                Sciences de l’éducation
+              </h3>
+              <p className="mt-3 leading-7 text-gray-600">
+                Réflexion sur l’éducation, la formation, la pédagogie et les
+                transformations des systèmes éducatifs en Afrique.
+              </p>
+            </article>
+
+            <article className="rounded-2xl border border-gray-200 p-7 shadow-sm">
+              <h3 className="text-xl font-bold text-blue-900">
+                Géopolitique du savoir
+              </h3>
+              <p className="mt-3 leading-7 text-gray-600">
+                Analyse des rapports de pouvoir, des dynamiques internationales
+                et de la place du savoir dans les sociétés contemporaines.
+              </p>
+            </article>
+
+            <article className="rounded-2xl border border-gray-200 p-7 shadow-sm">
+              <h3 className="text-xl font-bold text-blue-900">
+                Recherche & méthodologie
+              </h3>
+              <p className="mt-3 leading-7 text-gray-600">
+                Développement des compétences en recherche, méthodologie
+                scientifique et production de connaissances.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
 
       {/* Formation */}
       <section id="formation" className="px-6 py-20">
@@ -175,7 +225,7 @@ export default function Home() {
           >
             contact@academiques-en-action.com
           </a>
-        </div>
+        </div> 
       </section>
 
       {/* Pied de page */}
