@@ -128,9 +128,7 @@ export default function Home() {
         </div>
       </section>
 
-            </section>
-
-      {/* Présentation du laboratoire */}
+           {/* Présentation du laboratoire */}
       <section id="presentation" className="bg-white px-6 py-20">
         ...
       </section>
