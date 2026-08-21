@@ -126,6 +126,8 @@ export default function Home() {
             </article>
           </div>
         </div>
+        {/* Présentation du laboratoire */}
+<section id="presentation" className="bg-white px-6 py-20">
      <div className="mx-auto max-w-6xl">
   <h2 className="text-3xl font-bold text-gray-900">
     Présentation du laboratoire
@@ -149,7 +151,7 @@ export default function Home() {
     scientifiques utiles au développement des sociétés.
   </p>
 </div>
-         
+     </section>    
       {/* Recherche */}
       <section id="recherche" className="bg-gray-50 px-6 py-20">
         <div className="mx-auto max-w-6xl">
