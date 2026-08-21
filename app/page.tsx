@@ -126,15 +126,30 @@ export default function Home() {
             </article>
           </div>
         </div>
-      </section>
+     <div className="mx-auto max-w-6xl">
+  <h2 className="text-3xl font-bold text-gray-900">
+    Présentation du laboratoire
+  </h2>
 
-           {/* Présentation du laboratoire */}
-      <section id="presentation" className="bg-white px-6 py-20">
-        ...
-      </section>
+  <p className="mt-6 text-lg leading-8 text-gray-700">
+    Académiques en Action – Laboratoire R & RA est un espace de réflexion,
+    de recherche et de référence consacré aux enjeux scientifiques,
+    éducatifs, sociaux et géopolitiques qui concernent particulièrement
+    l’Afrique et ses diasporas.
+  </p>
 
-      {/* Recherche */}
-      <section id="recherche" className="bg-gray-50 px-6 py-20">
+  <p className="mt-4 text-lg leading-8 text-gray-700">
+    Le laboratoire rassemble des universitaires, chercheurs, enseignants,
+    étudiants et acteurs de la société civile afin de favoriser la
+    production, le partage et la valorisation des connaissances.
+  </p>
+
+  <p className="mt-4 text-lg leading-8 text-gray-700">
+    Notre ambition est de transformer les idées en contributions
+    scientifiques utiles au développement des sociétés.
+  </p>
+</div>
+         
       {/* Recherche */}
       <section id="recherche" className="bg-gray-50 px-6 py-20">
         <div className="mx-auto max-w-6xl">
