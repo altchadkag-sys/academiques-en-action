@@ -26,6 +26,9 @@ export default function Home() {
             <a href="#recherche" className="hover:text-blue-700">
   Recherche
 </a>
+          <a href="#axes" className="hover:text-blue-700">
+  Axes de recherche
+</a>
             <a href="#formation" className="hover:text-blue-700">
               Formation
             </a>
