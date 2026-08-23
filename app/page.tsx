@@ -354,9 +354,14 @@ export default function Home() {
 
       {/* Pied de page */}
       <footer className="border-t border-gray-200 bg-white px-6 py-8 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} Académiques en Action — Tous droits
-        réservés.
-      </footer>
+  <p>
+    © {new Date().getFullYear()} Académiques en Action — Tous droits réservés.
+  </p>
+
+  <p className="mt-2 text-gray-400">
+    Laboratoire R & RA — Réflexion & Référence Africaine
+  </p>
+</footer>
     </main>
   );
 }
