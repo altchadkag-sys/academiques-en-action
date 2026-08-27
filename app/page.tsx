@@ -3,7 +3,6 @@ export default function Home() {
     <main className="min-h-screen bg-white text-gray-900">
       {/* En-tête */}
       
-          ```jsx
 <header className="border-b border-gray-200 bg-white">
   <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
 
