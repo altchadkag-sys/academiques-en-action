@@ -2,42 +2,63 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-900">
       {/* En-tête */}
-      <header className="border-b border-gray-200 bg-white">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          <div>
-            <h1 className="text-2xl font-bold text-blue-900">
-              Académiques en Action 
-            </h1>
-            <p className="text-sm text-gray-600">
-              Laboratoire R & RA — Réflexion & Référence Africaine
-            </p> 
-          </div>
+      
+          ```jsx
+<header className="border-b border-gray-200 bg-white">
+  <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
 
-          <nav className="hidden gap-6 md:flex">
-            <a href="#accueil" className="hover:text-blue-700">
-              Accueil
-            </a>
-            <a href="#mission" className="hover:text-blue-700">
-              Notre mission
-            </a>
-            <a href="#presentation" className="hover:text-blue-700">
-  Présentation
-</a>
-            <a href="#recherche" className="hover:text-blue-700">
-  Recherche
-</a>
-          <a href="#axes" className="hover:text-blue-700">
-  Axes de recherche
-</a>
-            <a href="#formation" className="hover:text-blue-700">
-              Formation
-            </a>
-            <a href="#contact" className="hover:text-blue-700">
-              Contact
-            </a>
-          </nav>
-        </div>
-      </header>
+    {/* Logo et identité du laboratoire */}
+    <div className="flex items-center gap-4">
+      <img
+        src="/logo-academiques.png"
+        alt="Logo Académiques en Action"
+        className="h-16 w-auto object-contain"
+      />
+
+      <div>
+        <h1 className="text-2xl font-bold text-blue-900">
+          Académiques en Action
+        </h1>
+        <p className="text-sm text-gray-600">
+          Laboratoire R & RA — Réflexion & Référence Africaine
+        </p>
+      </div>
+    </div>
+
+    {/* Menu de navigation */}
+    <nav className="hidden gap-6 md:flex">
+      <a href="#accueil" className="hover:text-blue-700">
+        Accueil
+      </a>
+
+      <a href="#mission" className="hover:text-blue-700">
+        Notre mission
+      </a>
+
+      <a href="#presentation" className="hover:text-blue-700">
+        Présentation
+      </a>
+
+      <a href="#recherche" className="hover:text-blue-700">
+        Recherche
+      </a>
+
+      <a href="#axes" className="hover:text-blue-700">
+        Axes de recherche
+      </a>
+
+      <a href="#formation" className="hover:text-blue-700">
+        Formation
+      </a>
+
+      <a href="#contact" className="hover:text-blue-700">
+        Contact
+      </a>
+    </nav>
+
+  </div>
+</header>
+``` 
 
       {/* Section principale */}
       <section
