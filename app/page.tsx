@@ -11,7 +11,7 @@ export default function Home() {
       <img
         src="/logo-academiques.png"
         alt="Logo Académiques en Action"
-        className="h-16 w-auto object-contain"
+        className="h-20 w-auto object-contain"
       />
 
       <div>
@@ -57,7 +57,7 @@ export default function Home() {
 
   </div>
 </header>
-``` 
+ 
 
       {/* Section principale */}
       <section
