@@ -18,9 +18,9 @@ export default function Home() {
         <h1 className="text-2xl font-bold tracking-tight text-blue-950">
   Académiques en Action
 </h1>
-        <p className="text-sm text-gray-600">
-          Laboratoire R & RA — Réflexion & Référence Africaine
-        </p>
+        <p className="mt-1 text-sm font-medium tracking-wide text-gray-500">
+  Laboratoire R & RA — Réflexion & Référence Africaine
+</p>
       </div>
     </div>
 
