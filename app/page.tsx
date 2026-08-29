@@ -25,35 +25,59 @@ export default function Home() {
     </div>
 
     {/* Menu de navigation */}
-    <nav className="hidden gap-6 md:flex">
-      <a href="#accueil" className="hover:text-blue-700">
-        Accueil
-      </a>
+    
+    
+<nav className="hidden items-center gap-5 text-sm font-medium text-blue-950 md:flex">
+  <a
+    href="#accueil"
+    className="transition hover:text-yellow-600"
+  >
+    Accueil
+  </a>
 
-      <a href="#mission" className="hover:text-blue-700">
-        Notre mission
-      </a>
+  <a
+    href="#mission"
+    className="transition hover:text-yellow-600"
+  >
+    Notre mission
+  </a>
 
-      <a href="#presentation" className="hover:text-blue-700">
-        Présentation
-      </a>
+  <a
+    href="#presentation"
+    className="transition hover:text-yellow-600"
+  >
+    Présentation
+  </a>
 
-      <a href="#recherche" className="hover:text-blue-700">
-        Recherche
-      </a>
+  <a
+    href="#recherche"
+    className="transition hover:text-yellow-600"
+  >
+    Recherche
+  </a>
 
-      <a href="#axes" className="hover:text-blue-700">
-        Axes de recherche
-      </a>
+  <a
+    href="#axes"
+    className="transition hover:text-yellow-600"
+  >
+    Axes de recherche
+  </a>
 
-      <a href="#formation" className="hover:text-blue-700">
-        Formation
-      </a>
+  <a
+    href="#formation"
+    className="transition hover:text-yellow-600"
+  >
+    Formation
+  </a>
 
-      <a href="#contact" className="hover:text-blue-700">
-        Contact
-      </a>
-    </nav>
+  <a
+    href="#contact"
+    className="transition hover:text-yellow-600"
+  >
+    Contact
+  </a>
+</nav>
+  
 
   </div>
 </header>
