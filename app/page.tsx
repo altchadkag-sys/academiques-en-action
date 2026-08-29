@@ -279,7 +279,7 @@ export default function Home() {
       {/* Formation / Tutorat / Master / Doctorat */}
       <section id="formation" className="bg-gray-50 px-6 py-20">
         <div className="mx-auto max-w-6xl">
-          <p className="text-sm font-semibold uppercase tracking-widest text-blue-700">
+          <p className="text-sm font-semibold uppercase tracking-widest text-yellow-600">
             Formation / Tutorat / Master / Doctorat
           </p>
 
