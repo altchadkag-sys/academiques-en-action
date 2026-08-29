@@ -100,10 +100,12 @@ export default function Home() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-blue-100">
-            Académiques en Action accompagne la réflexion, la recherche et la
-            formation pour contribuer à l’émergence de leaders compétents,
-            intègres et engagés.
-          </p>
+  <span className="font-semibold text-yellow-400">
+    Académiques en Action
+  </span>{" "}
+  accompagne la réflexion, la recherche et la formation pour contribuer à
+  l’émergence de leaders compétents, intègres et engagés.
+</p>
 
           <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
             <a
