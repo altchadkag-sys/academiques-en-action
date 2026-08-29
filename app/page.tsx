@@ -147,7 +147,7 @@ export default function Home() {
           </div>
 
           <div className="mt-12 grid gap-6 md:grid-cols-3">
-            <article className="rounded-2xl border border-gray-200 p-7 shadow-sm">
+            <article className="rounded-2xl border-t-4 border-blue-900 bg-white p-7 shadow-sm">
               <h3 className="text-xl font-bold text-blue-900">
                 Recherche
               </h3>
