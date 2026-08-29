@@ -15,9 +15,9 @@ export default function Home() {
       />
 
       <div>
-        <h1 className="text-2xl font-bold text-blue-900">
-          Académiques en Action
-        </h1>
+        <h1 className="text-2xl font-bold tracking-tight text-blue-950">
+  Académiques en Action
+</h1>
         <p className="text-sm text-gray-600">
           Laboratoire R & RA — Réflexion & Référence Africaine
         </p>
