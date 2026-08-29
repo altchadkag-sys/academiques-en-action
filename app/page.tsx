@@ -84,47 +84,59 @@ export default function Home() {
  
 
       {/* Section principale */}
-      <section
-        id="accueil"
-        className="bg-blue-950 px-6 py-24 text-white"
-      >
-        <div className="mx-auto max-w-5xl text-center">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-yellow-400">
-            Recherche • Formation • Réflexion
-          </p>
-
-          <h2 className="text-4xl font-bold leading-tight tracking-tight md:text-6xl">
-            Former des intellectuels,  
-            <br />
-            transformer les idées en contributions scientifiques.
-          </h2>
-
-          <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-blue-100">
-  <span className="font-semibold text-yellow-400">
-    Académiques en Action
-  </span>{" "}
-  accompagne la réflexion, la recherche et la formation pour contribuer à
-  l’émergence de leaders compétents, intègres et engagés.
-</p>
-
-          <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
-            <a
-  href="#mission"
-  className="rounded-full bg-yellow-500 px-7 py-3 font-semibold text-blue-950 transition hover:bg-yellow-400"
+      
+{/* Section principale */}
+<section
+  id="accueil"
+  className="relative overflow-hidden bg-blue-950 px-6 py-28 text-white"
 >
-  Découvrir notre mission
-</a>
+  <div className="mx-auto max-w-6xl">
+    <div className="max-w-4xl">
 
-            <a
-              href="#contact"
-              className="rounded-full border border-white px-7 py-3 font-semibold text-white transition hover:bg-white hover:text-blue-950"
-            >
-              Nous contacter
-            </a>
-          </div>
-        </div>
-      </section>
+      <p className="mb-5 text-sm font-semibold uppercase tracking-[0.3em] text-yellow-400">
+        Laboratoire R & RA
+      </p>
 
+      <h2 className="text-4xl font-bold leading-tight md:text-6xl">
+        Académiques en Action
+      </h2>
+
+      <div className="mt-5 h-1 w-24 bg-yellow-400"></div>
+
+      <p className="mt-6 text-xl font-medium text-blue-100 md:text-2xl">
+        Recherche • Formation • Réflexion
+      </p>
+
+      <p className="mt-6 max-w-3xl text-lg leading-8 text-blue-100 md:text-xl">
+        Former des intellectuels, transformer les idées en contributions
+        scientifiques.
+      </p>
+
+      <p className="mt-5 max-w-3xl text-base leading-7 text-blue-200">
+        Académiques en Action accompagne la réflexion, la recherche et la
+        formation afin de contribuer à l’émergence de chercheurs, de
+        professionnels et de leaders compétents, intègres et engagés.
+      </p>
+
+      <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+        <a
+          href="#mission"
+          className="rounded-full bg-yellow-400 px-7 py-3 font-semibold text-blue-950 transition hover:bg-yellow-300"
+        >
+          Découvrir notre mission
+        </a>
+
+        <a
+          href="#contact"
+          className="rounded-full border border-yellow-400 px-7 py-3 font-semibold text-yellow-400 transition hover:bg-yellow-400 hover:text-blue-950"
+        >
+          Nous contacter
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
       {/* Mission */}
       <section id="mission" className="px-6 py-20">
         <div className="mx-auto max-w-6xl">
