@@ -109,11 +109,11 @@ export default function Home() {
 
           <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
             <a
-              href="#mission"
-              className="rounded-full bg-white px-7 py-3 font-semibold text-blue-950 transition hover:bg-blue-100"
-            >
-              Découvrir notre mission
-            </a>
+  href="#mission"
+  className="rounded-full bg-yellow-500 px-7 py-3 font-semibold text-blue-950 transition hover:bg-yellow-400"
+>
+  Découvrir notre mission
+</a>
 
             <a
               href="#contact"
