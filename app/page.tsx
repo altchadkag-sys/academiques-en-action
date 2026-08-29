@@ -89,12 +89,12 @@ export default function Home() {
         className="bg-blue-950 px-6 py-24 text-white"
       >
         <div className="mx-auto max-w-5xl text-center">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-blue-200">
+          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-yellow-400">
             Recherche • Formation • Réflexion
           </p>
 
           <h2 className="text-4xl font-bold leading-tight md:text-6xl">
-            Former des intellectuels,
+            Former des intellectuels,  
             <br />
             transformer les idées en contributions scientifiques.
           </h2>
