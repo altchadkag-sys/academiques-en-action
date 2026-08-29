@@ -420,7 +420,165 @@ export default function Home() {
           </div>
         </div>
       </section>
-    
+    {/* Formation / Tutorat / Master / Doctorat */}
+<section id="formation" className="bg-blue-950 px-6 py-24 text-white">
+  <div className="mx-auto max-w-6xl">
+
+    <div className="max-w-4xl">
+      <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-400">
+        Formation académique
+      </p>
+
+      <h2 className="mt-3 text-3xl font-bold md:text-5xl">
+        Accompagner les étudiants, développer leur autonomie scientifique.
+      </h2>
+
+      <div className="mt-5 h-1 w-20 bg-yellow-400"></div>
+
+      <p className="mt-6 text-lg leading-8 text-blue-100">
+        Académiques en Action accompagne les étudiants de Master et de
+        Doctorat, ainsi que les jeunes chercheurs, dans la conception,
+        la structuration, la rédaction et la soutenance de leurs projets
+        de recherche.
+      </p>
+    </div>
+
+    {/* Présentation du programme */}
+    <div className="mt-14 rounded-3xl border border-blue-800 bg-blue-900/50 p-8 md:p-10">
+      <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+
+        <div>
+          <p className="text-sm font-semibold uppercase tracking-widest text-yellow-400">
+            Programme de tutorat académique
+          </p>
+
+          <h3 className="mt-3 text-2xl font-bold md:text-3xl">
+            De la conception du sujet à la soutenance
+          </h3>
+
+          <p className="mt-4 max-w-2xl leading-7 text-blue-100">
+            Un parcours structuré en 8 modules pour acquérir une méthode
+            de recherche solide et développer une véritable autonomie
+            scientifique.
+          </p>
+        </div>
+
+        <div className="shrink-0 rounded-2xl bg-white px-6 py-5 text-center text-blue-950">
+          <p className="text-sm font-semibold uppercase tracking-widest">
+            Durée
+          </p>
+
+          <p className="mt-1 text-3xl font-bold">
+            8 semaines
+          </p>
+
+          <p className="mt-1 text-sm text-gray-600">
+            2 heures par module
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    {/* Les 8 modules */}
+    <div className="mt-14">
+      <h3 className="text-2xl font-bold md:text-3xl">
+        Parcours de formation
+      </h3>
+
+      <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+
+        <article className="rounded-2xl bg-white p-6 text-blue-950 shadow-sm">
+          <p className="text-sm font-bold text-yellow-600">
+            MODULE 01
+          </p>
+          <h4 className="mt-3 text-lg font-bold">
+            Introduction à la recherche scientifique
+          </h4>
+        </article>
+
+        <article className="rounded-2xl bg-white p-6 text-blue-950 shadow-sm">
+          <p className="text-sm font-bold text-yellow-600">
+            MODULE 02
+          </p>
+          <h4 className="mt-3 text-lg font-bold">
+            Choix et formulation du sujet de recherche
+          </h4>
+        </article>
+
+        <article className="rounded-2xl bg-white p-6 text-blue-950 shadow-sm">
+          <p className="text-sm font-bold text-yellow-600">
+            MODULE 03
+          </p>
+          <h4 className="mt-3 text-lg font-bold">
+            Construction de la problématique et des hypothèses
+          </h4>
+        </article>
+
+        <article className="rounded-2xl bg-white p-6 text-blue-950 shadow-sm">
+          <p className="text-sm font-bold text-yellow-600">
+            MODULE 04
+          </p>
+          <h4 className="mt-3 text-lg font-bold">
+            Revue de la littérature et cadre théorique
+          </h4>
+        </article>
+
+        <article className="rounded-2xl bg-white p-6 text-blue-950 shadow-sm">
+          <p className="text-sm font-bold text-yellow-600">
+            MODULE 05
+          </p>
+          <h4 className="mt-3 text-lg font-bold">
+            Méthodologie de la recherche
+          </h4>
+        </article>
+
+        <article className="rounded-2xl bg-white p-6 text-blue-950 shadow-sm">
+          <p className="text-sm font-bold text-yellow-600">
+            MODULE 06
+          </p>
+          <h4 className="mt-3 text-lg font-bold">
+            Collecte et analyse des données
+          </h4>
+        </article>
+
+        <article className="rounded-2xl bg-white p-6 text-blue-950 shadow-sm">
+          <p className="text-sm font-bold text-yellow-600">
+            MODULE 07
+          </p>
+          <h4 className="mt-3 text-lg font-bold">
+            Rédaction scientifique et normes académiques
+          </h4>
+        </article>
+
+        <article className="rounded-2xl bg-white p-6 text-blue-950 shadow-sm">
+          <p className="text-sm font-bold text-yellow-600">
+            MODULE 08
+          </p>
+          <h4 className="mt-3 text-lg font-bold">
+            Soutenance et valorisation de la recherche
+          </h4>
+        </article>
+
+      </div>
+    </div>
+
+    {/* Philosophie du tutorat */}
+    <div className="mt-14 border-l-4 border-yellow-400 pl-6">
+      <h3 className="text-2xl font-bold">
+        Apprendre à penser, écrire et surtout réussir autrement.
+      </h3>
+
+      <p className="mt-4 max-w-3xl leading-7 text-blue-100">
+        Le tutorat académique vise à construire des intellectuels,
+        et non seulement des diplômés. Il s’agit de développer
+        l’autonomie, la rigueur et la capacité à produire un travail
+        scientifique de qualité.
+      </p>
+    </div>
+
+  </div>
+</section>
       {/* Contact */}
       <section id="contact" className="bg-blue-950 px-6 py-20 text-white">
         <div className="mx-auto max-w-5xl text-center">
