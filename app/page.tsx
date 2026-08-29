@@ -233,60 +233,92 @@ export default function Home() {
       </section>
       
       {/* Nos axes de réflexions */}
-      <section id="axes" className="bg-gray-50 px-6 py-20">
-        <div className="mx-auto max-w-6xl">
-          <p className="text-sm font-semibold uppercase tracking-widest text-blue-700">
-            Nos axes de réflexions
-          </p>
+<section id="axes" className="bg-white px-6 py-24">
+  <div className="mx-auto max-w-6xl">
 
-          <h2 className="mt-3 text-3xl font-bold text-gray-900 md:text-4xl">
-            Penser le savoir, comprendre le monde, transformer les perspectives.
-          </h2>
+    <div className="max-w-3xl">
+      <p className="text-sm font-semibold uppercase tracking-[0.25em] text-blue-700">
+        Nos axes de recherche
+      </p>
 
-          <div className="mt-12 grid gap-6 md:grid-cols-3">
+      <h2 className="mt-3 text-3xl font-bold text-blue-950 md:text-4xl">
+        Penser le savoir, comprendre le monde, transformer les perspectives.
+      </h2>
 
-            <article className="rounded-2xl border border-gray-200 bg-white p-7 shadow-sm">
-              <h3 className="text-xl font-bold text-blue-900">
-                La Chronique du Savoir
-              </h3>
+      <div className="mt-5 h-1 w-20 bg-yellow-400"></div>
 
-              <p className="mt-4 leading-7 text-gray-600">
-                Épistémologie, méthodologie et écriture scientifique.
-                Comprendre comment se construit le savoir scientifique,
-                maîtriser les méthodes de recherche et affirmer une écriture
-                académique rigoureuse et autonome.
-              </p>
-            </article>
+      <p className="mt-6 text-lg leading-8 text-gray-600">
+        Trois axes structurent la réflexion d’Académiques en Action et
+        permettent d’explorer les grandes questions liées au savoir, à la
+        recherche, à l’éducation et aux sociétés contemporaines.
+      </p>
+    </div>
 
-            <article className="rounded-2xl border-t-4 border-blue-900 bg-white p-7 shadow-sm">
-              <h3 className="text-xl font-bold text-blue-900">
-                La Géopolitique du Savoir
-              </h3>
+    <div className="mt-14 grid gap-8 md:grid-cols-3">
 
-              <p className="mt-4 leading-7 text-gray-600">
-                Pourquoi le savoir est-il un enjeu de pouvoir mondial ?
-                Décrypter les rapports de force autour de la production,
-                de la circulation et de la légitimation du savoir, entre
-                domination et émancipation.
-              </p>
-            </article>
-
-            <article className="rounded-2xl border border-gray-200 bg-white p-7 shadow-sm">
-              <h3 className="text-xl font-bold text-blue-900">
-                Sciences de l’Éducation en Afrique
-              </h3>
-
-              <p className="mt-4 leading-7 text-gray-600">
-                Interroger la dépendance intellectuelle du continent et la
-                domination des cadres épistémologiques importés. Revisiter
-                les sciences, la médecine et les systèmes éducatifs africains
-                précoloniaux. Un plaidoyer pour la décolonisation des savoirs
-                et la souveraineté intellectuelle africaine.
-              </p>
-            </article>
-
-          </div>
+      {/* Axe 1 */}
+      <article className="group rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+        <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full bg-blue-950 text-lg font-bold text-yellow-400">
+          01
         </div>
+
+        <h3 className="text-2xl font-bold text-blue-950">
+          La Chronique du Savoir
+        </h3>
+
+        <div className="mt-4 h-1 w-12 bg-yellow-400"></div>
+
+        <p className="mt-5 leading-8 text-gray-600">
+          Épistémologie, méthodologie et écriture scientifique. Comprendre
+          comment se construit le savoir scientifique, maîtriser les méthodes
+          de recherche et affirmer une écriture académique rigoureuse et
+          autonome.
+        </p>
+      </article>
+
+      {/* Axe 2 */}
+      <article className="group rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+        <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full bg-blue-950 text-lg font-bold text-yellow-400">
+          02
+        </div>
+
+        <h3 className="text-2xl font-bold text-blue-950">
+          La Géopolitique du Savoir
+        </h3>
+
+        <div className="mt-4 h-1 w-12 bg-yellow-400"></div>
+
+        <p className="mt-5 leading-8 text-gray-600">
+          Pourquoi le savoir est-il un enjeu de pouvoir mondial ? Décrypter
+          les rapports de force autour de la production, de la circulation et
+          de la légitimation du savoir, entre domination et émancipation.
+        </p>
+      </article>
+
+      {/* Axe 3 */}
+      <article className="group rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+        <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full bg-blue-950 text-lg font-bold text-yellow-400">
+          03
+        </div>
+
+        <h3 className="text-2xl font-bold text-blue-950">
+          Sciences de l’Éducation en Afrique
+        </h3>
+
+        <div className="mt-4 h-1 w-12 bg-yellow-400"></div>
+
+        <p className="mt-5 leading-8 text-gray-600">
+          Interroger la dépendance intellectuelle du continent et la domination
+          des cadres épistémologiques importés. Revisiter les sciences, la
+          médecine et les systèmes éducatifs africains précoloniaux. Un
+          plaidoyer pour la décolonisation des savoirs et la souveraineté
+          intellectuelle africaine.
+        </p>
+      </article>
+
+    </div>
+  </div>
+          
       </section>
       {/* Formation / Tutorat / Master / Doctorat */}
       <section id="formation" className="bg-gray-50 px-6 py-20">
