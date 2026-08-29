@@ -93,7 +93,7 @@ export default function Home() {
             Recherche • Formation • Réflexion
           </p>
 
-          <h2 className="text-4xl font-bold leading-tight md:text-6xl">
+          <h2 className="text-4xl font-bold leading-tight tracking-tight md:text-6xl">
             Former des intellectuels,  
             <br />
             transformer les idées en contributions scientifiques.
