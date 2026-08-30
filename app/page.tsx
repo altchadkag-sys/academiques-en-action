@@ -310,9 +310,101 @@ export default function Home() {
   </div>
 </section>
 
-{/* Recherche */}
 </section>
-      <section id="recherche" className="bg-gray-50 px-6 py-20">
+
+{/* Fondateur */}
+<section id="fondateur" className="bg-gray-50 px-6 py-24">
+  <div className="mx-auto max-w-6xl">
+
+    <div className="max-w-4xl">
+      <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-600">
+        Le Fondateur
+      </p>
+
+      <h2 className="mt-3 text-3xl font-bold text-blue-950 md:text-5xl">
+        Dr Samson N'Taadjel KAGMATCHÉ
+      </h2>
+
+      <div className="mt-5 h-1 w-20 bg-yellow-400"></div>
+
+      <p className="mt-6 text-lg leading-8 text-gray-700">
+        Fondateur d’Académiques en Action — Laboratoire R & RA
+        (Réflexion & Référence Africaine).
+      </p>
+    </div>
+
+    <div className="mt-10 max-w-4xl space-y-5 text-lg leading-8 text-gray-700">
+
+      <p>
+        Docteur en théologie, spécialisé en <strong>Ancien Testament</strong>,
+        avec une spécialisation en <strong>archéologie du Proche-Orient ancien</strong>,
+        le fondateur développe une approche interdisciplinaire qui met en
+        dialogue les textes anciens, l’archéologie, l’histoire et la réflexion
+        scientifique.
+      </p>
+
+      <p>
+        Sa recherche doctorale a articulé
+        <strong> l’étude de l’Ancien Testament et l’archéologie</strong>,
+        dans une démarche visant à mieux comprendre les contextes historiques,
+        culturels et religieux du monde biblique.
+      </p>
+
+      <p>
+        Cette formation interdisciplinaire constitue l’un des fondements
+        intellectuels d’Académiques en Action : croiser les disciplines,
+        questionner les savoirs établis et contribuer à une production
+        scientifique rigoureuse, particulièrement attentive aux réalités
+        africaines.
+      </p>
+
+      <p>
+        À travers le Laboratoire R & RA, le fondateur souhaite créer un espace
+        où universitaires, chercheurs, enseignants et étudiants peuvent
+        réfléchir ensemble, produire du savoir et transformer leurs idées
+        en contributions scientifiques utiles à la société.
+      </p>
+
+    </div>
+
+    <div className="mt-12 grid gap-6 md:grid-cols-3">
+
+      <article className="rounded-2xl border border-gray-200 bg-white p-7 shadow-sm">
+        <h3 className="text-xl font-bold text-blue-900">
+          Théologie
+        </h3>
+        <p className="mt-3 leading-7 text-gray-600">
+          Spécialisation en théologie et recherche sur l’Ancien Testament.
+        </p>
+      </article>
+
+      <article className="rounded-2xl border border-gray-200 bg-white p-7 shadow-sm">
+        <h3 className="text-xl font-bold text-blue-900">
+          Archéologie
+        </h3>
+        <p className="mt-3 leading-7 text-gray-600">
+          Formation en archéologie du Proche-Orient ancien et approche
+          interdisciplinaire des mondes anciens.
+        </p>
+      </article>
+
+      <article className="rounded-2xl border border-gray-200 bg-white p-7 shadow-sm">
+        <h3 className="text-xl font-bold text-blue-900">
+          Recherche
+        </h3>
+        <p className="mt-3 leading-7 text-gray-600">
+          Une démarche fondée sur le dialogue entre les disciplines,
+          la rigueur scientifique et la valorisation des savoirs.
+        </p>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+{/* Recherche */}
+  <section id="recherche" className="bg-gray-50 px-6 py-20">
         <div className="mx-auto max-w-6xl">
           <h2 className="text-3xl font-bold text-gray-900">
             Recherche & réflexion
