@@ -48,7 +48,12 @@ export default function Home() {
   >
     Présentation
   </a>
-
+<a
+  href="#fondateur"
+  className="transition hover:text-yellow-600"
+>
+  Fondateur
+</a>
   <a
     href="#recherche"
     className="transition hover:text-yellow-600"
