@@ -46,21 +46,26 @@ export default function Home() {
     href="#presentation"
     className="transition hover:text-yellow-600"
   >
+    <a
+    href="#presentation"
+    className="transition hover:text-yellow-600"
+  >
     Présentation
   </a>
-<a
-  href="#fondateur"
-  className="transition hover:text-yellow-600"
->
-  Fondateur
-</a>
+
+  <a
+    href="#fondateur"
+    className="transition hover:text-yellow-600"
+  >
+    Fondateur
+  </a>
+
   <a
     href="#recherche"
     className="transition hover:text-yellow-600"
   >
     Recherche
-  </a>
-
+  </a> 
   <a
     href="#axes"
     className="transition hover:text-yellow-600"
