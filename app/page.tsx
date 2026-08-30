@@ -221,8 +221,92 @@ export default function Home() {
     scientifiques utiles au développement des sociétés.
   </p>
 </div>
-     </section>    
-      {/* Recherche */}
+  </section>
+
+{/* Fondateur */}
+<section id="fondateur" className="bg-gray-50 px-6 py-24">
+  <div className="mx-auto max-w-6xl">
+
+    <div className="max-w-4xl">
+      <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-600">
+        Le Fondateur
+      </p>
+
+      <h2 className="mt-3 text-3xl font-bold text-blue-950 md:text-5xl">
+        Un parcours au croisement de la théologie, de l’Ancien Testament et de l’archéologie.
+      </h2>
+
+      <div className="mt-5 h-1 w-20 bg-yellow-400"></div>
+
+      <p className="mt-6 text-lg leading-8 text-gray-700">
+        Fondateur d’Académiques en Action — Laboratoire R & RA,
+        il inscrit son parcours universitaire et scientifique dans une
+        réflexion qui articule la théologie, l’étude de l’Ancien Testament
+        et l’archéologie.
+      </p>
+
+      <p className="mt-5 text-lg leading-8 text-gray-700">
+        Son parcours doctoral s’est particulièrement développé autour de
+        l’Ancien Testament et de l’archéologie, dans une démarche visant à
+        mettre en dialogue les textes anciens, leur contexte historique et
+        les données archéologiques.
+      </p>
+    </div>
+
+    <div className="mt-14 grid gap-8 md:grid-cols-2">
+
+      <article className="rounded-2xl border border-gray-200 bg-white p-8 shadow-sm">
+        <p className="text-sm font-semibold uppercase tracking-widest text-blue-700">
+          Formation universitaire
+        </p>
+
+        <h3 className="mt-3 text-2xl font-bold text-blue-950">
+          Théologie & Ancien Testament
+        </h3>
+
+        <p className="mt-5 leading-8 text-gray-600">
+          Formation doctorale en théologie avec une spécialisation en
+          Ancien Testament et une approche interdisciplinaire intégrant
+          l’archéologie.
+        </p>
+      </article>
+
+      <article className="rounded-2xl border border-gray-200 bg-white p-8 shadow-sm">
+        <p className="text-sm font-semibold uppercase tracking-widest text-blue-700">
+          Recherche
+        </p>
+
+        <h3 className="mt-3 text-2xl font-bold text-blue-950">
+          Ancien Testament & Archéologie
+        </h3>
+
+        <p className="mt-5 leading-8 text-gray-600">
+          Une recherche à l’intersection de l’étude des textes de l’Ancien
+          Testament, de l’histoire du Proche-Orient ancien et des données
+          archéologiques.
+        </p>
+      </article>
+
+    </div>
+
+    <div className="mt-12 rounded-2xl border-l-4 border-yellow-400 bg-white p-8 shadow-sm">
+      <h3 className="text-2xl font-bold text-blue-950">
+        Une vision interdisciplinaire du savoir
+      </h3>
+
+      <p className="mt-4 max-w-4xl leading-8 text-gray-600">
+        Cette formation nourrit une vision du savoir fondée sur le dialogue
+        entre les disciplines, la rigueur de la recherche et la valorisation
+        des connaissances. Elle constitue l’un des fondements de la démarche
+        d’Académiques en Action : penser, rechercher, former et agir.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+{/* Recherche */}
+</section>
       <section id="recherche" className="bg-gray-50 px-6 py-20">
         <div className="mx-auto max-w-6xl">
           <h2 className="text-3xl font-bold text-gray-900">
