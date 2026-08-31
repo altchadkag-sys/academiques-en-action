@@ -15,7 +15,7 @@ export default function Home() {
       />
 
       <div>
-        <h1 className="text-2xl font-bold tracking-tight text-blue-950">
+        <h1 className=" text-[22px] font-bold tracking-tight text-blue-950">
           Académiques en Action
         </h1>
 
@@ -120,7 +120,7 @@ export default function Home() {
 
       <div className="mt-6 h-1 w-24 bg-yellow-400"></div>
 
-      <p className="mt-6 text-xl font-medium text-blue-100 md:text-2xl">
+      <p className="mt-6 text-xl font-medium text-blue-100 md:text-[22px]">
         Recherche • Formation • Réflexion
       </p>
 
@@ -205,7 +205,7 @@ export default function Home() {
           02
         </div>
 
-        <h3 className="mt-6 text-2xl font-bold text-blue-950">
+        <h3 className="mt-6 text-[22px] font-bold text-blue-950">
           Formation
         </h3>
 
@@ -223,7 +223,7 @@ export default function Home() {
           03
         </div>
 
-        <h3 className="mt-6 text-2xl font-bold text-blue-950">
+        <h3 className="mt-6 text-[22px] font-bold text-blue-950">
           Action
         </h3>
 
@@ -272,7 +272,7 @@ export default function Home() {
           01
         </div>
 
-        <h3 className="mt-6 text-2xl font-bold text-blue-950">
+        <h3 className="mt-6 text-[22px] font-bold text-blue-950">
           Réfléchir
         </h3>
 
@@ -290,7 +290,7 @@ export default function Home() {
           02
         </div>
 
-        <h3 className="mt-6 text-2xl font-bold text-blue-950">
+        <h3 className="mt-6 text-[22px] font-bold text-blue-950">
           Rechercher
         </h3>
 
@@ -308,7 +308,7 @@ export default function Home() {
           03
         </div>
 
-        <h3 className="mt-6 text-2xl font-bold text-blue-950">
+        <h3 className="mt-6 text-[22px] font-bold text-blue-950">
           Partager
         </h3>
 
@@ -405,7 +405,7 @@ export default function Home() {
           Profil académique
         </p>
 
-        <h3 className="mt-4 text-2xl font-bold">
+        <h3 className="mt-4 text-[22px] font-bold">
           Une approche interdisciplinaire
         </h3>
 
@@ -426,7 +426,7 @@ export default function Home() {
         Domaines de compétence
       </p>
 
-      <h3 className="mt-3 text-2xl font-bold text-blue-950 md:text-3xl">
+      <h3 className="mt-3 text-[22px] font-bold text-blue-950 md:text-3xl">
         Des disciplines au service d’une même vision scientifique.
       </h3>
 
@@ -600,7 +600,7 @@ export default function Home() {
           Axe de recherche
         </p>
 
-        <h3 className="mt-2 text-2xl font-bold text-blue-950">
+        <h3 className="mt-2 text-[22px] font-bold text-blue-950">
           La Chronique du Savoir
         </h3>
 
@@ -632,7 +632,7 @@ export default function Home() {
           Axe de recherche
         </p>
 
-        <h3 className="mt-2 text-2xl font-bold text-blue-950">
+        <h3 className="mt-2 text-[22px] font-bold text-blue-950">
           La Géopolitique du Savoir
         </h3>
 
@@ -664,7 +664,7 @@ export default function Home() {
           Axe de recherche
         </p>
 
-        <h3 className="mt-2 text-2xl font-bold text-blue-950">
+        <h3 className="mt-2 text-[22px] font-bold text-blue-950">
           Sciences de l’Éducation en Afrique
         </h3>
 
@@ -739,7 +739,7 @@ export default function Home() {
             Programme de tutorat académique
           </p>
 
-          <h3 className="mt-3 text-2xl font-bold md:text-3xl">
+          <h3 className="mt-3 text-[22px] font-bold md:text-3xl">
             De la conception du sujet à la soutenance
           </h3>
 
@@ -777,7 +777,7 @@ export default function Home() {
             Parcours de formation
           </p>
 
-          <h3 className="mt-2 text-2xl font-bold md:text-3xl">
+          <h3 className="mt-2 text-[22px] font-bold md:text-3xl">
             Les 8 modules du programme
           </h3>
         </div>
@@ -879,7 +879,7 @@ export default function Home() {
         Philosophie du tutorat
       </p>
 
-      <h3 className="mt-3 text-2xl font-bold md:text-3xl">
+      <h3 className="mt-3 text-[22px] font-bold md:text-3xl">
         Apprendre à penser, écrire et surtout réussir autrement.
       </h3>
 
