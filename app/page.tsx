@@ -895,26 +895,44 @@ export default function Home() {
   </div>
 </section>
 
-      {/* Contact */}
-      <section id="contact" className="bg-blue-950 px-6 py-20 text-white">
-        <div className="mx-auto max-w-5xl text-center">
-          <h2 className="text-3xl font-bold md:text-4xl">
-            Construisons ensemble une culture du savoir.
-          </h2>
+{/* Contact */}
+<section id="contact" className="bg-gray-50 px-6 py-24">
+  <div className="mx-auto max-w-5xl">
 
-          <p className="mx-auto mt-5 max-w-2xl text-blue-100">
-            Pour une collaboration, une formation, un projet de recherche ou
-            un accompagnement académique, contactez Académiques en Action.
-          </p>
+    <div className="rounded-3xl bg-blue-950 p-8 text-center text-white shadow-lg md:p-12">
 
-          <a
-            href="mailto:contact@academiques-en-action.com"
-            className="mt-8 inline-block rounded-full bg-white px-7 py-3 font-semibold text-blue-950 transition hover:bg-blue-100"
-          >
-            contact@academiques-en-action.com
-          </a>
-        </div> 
-      </section>
+      <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-400">
+        Contact
+      </p>
+
+      <h2 className="mt-3 text-3xl font-bold md:text-5xl">
+        Construisons ensemble une culture du savoir.
+      </h2>
+
+      <div className="mx-auto mt-5 h-1 w-20 bg-yellow-400"></div>
+
+      <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-blue-100">
+        Pour une collaboration, une formation, un projet de recherche ou
+        un accompagnement académique, contactez Académiques en Action.
+      </p>
+
+      <div className="mt-10">
+        <a
+          href="mailto:contact@academiques-en-action.com"
+          className="inline-flex items-center rounded-full bg-yellow-400 px-8 py-4 font-bold text-blue-950 transition hover:bg-yellow-300"
+        >
+          contact@academiques-en-action.com
+        </a>
+      </div>
+
+      <p className="mt-6 text-sm text-blue-200">
+        Laboratoire R & RA — Réflexion & Référence Africaine
+      </p>
+
+    </div>
+
+  </div>
+</section>
 
       {/* Pied de page */}
       <footer className="border-t border-gray-200 bg-white px-6 py-8 text-center text-sm text-gray-500">
