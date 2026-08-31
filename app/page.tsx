@@ -351,7 +351,7 @@ export default function Home() {
       </p>
 
       <h2 className="mt-3 text-3xl font-bold text-blue-950 md:text-5xl">
-        Dr Samson N'Taadjel KAGMATCHÉ
+        Dr. Samson N'Taadjèl KAGMATCHÉ
       </h2>
 
       <div className="mt-5 h-1 w-20 bg-yellow-400"></div>
