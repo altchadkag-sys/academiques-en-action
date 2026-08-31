@@ -240,32 +240,105 @@ export default function Home() {
   </div>
 </section>
 
-        {/* Présentation du laboratoire */}
-<section id="presentation" className="bg-white px-6 py-20">
-     <div className="mx-auto max-w-6xl">
-  <h2 className="text-3xl font-bold text-gray-900">
-    Présentation du laboratoire
-  </h2>
+{/* Présentation du laboratoire */}
+<section id="presentation" className="bg-white px-6 py-24">
+  <div className="mx-auto max-w-6xl">
 
-  <p className="mt-6 text-lg leading-8 text-gray-700">
-    Académiques en Action – Laboratoire R & RA est un espace de réflexion,
-    de recherche et de référence consacré aux enjeux scientifiques,
-    éducatifs, sociaux et géopolitiques qui concernent particulièrement
-    l’Afrique et ses diasporas.
-  </p>
+    {/* En-tête */}
+    <div className="max-w-4xl">
+      <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-600">
+        Présentation du laboratoire
+      </p>
 
-  <p className="mt-4 text-lg leading-8 text-gray-700">
-    Le laboratoire rassemble des universitaires, chercheurs, enseignants,
-    étudiants et acteurs de la société civile afin de favoriser la
-    production, le partage et la valorisation des connaissances.
-  </p>
+      <h2 className="mt-3 text-3xl font-bold text-blue-950 md:text-5xl">
+        Un espace de réflexion, de recherche et de référence.
+      </h2>
 
-  <p className="mt-4 text-lg leading-8 text-gray-700">
-    Notre ambition est de transformer les idées en contributions
-    scientifiques utiles au développement des sociétés.
-  </p>
-</div>
-  </section>
+      <div className="mt-5 h-1 w-20 bg-yellow-400"></div>
+
+      <p className="mt-6 text-lg leading-8 text-gray-700 md:text-xl">
+        Académiques en Action — Laboratoire R & RA est un espace de
+        réflexion, de recherche et de référence consacré aux enjeux
+        scientifiques, éducatifs, sociaux et géopolitiques qui concernent
+        particulièrement l’Afrique et ses diasporas.
+      </p>
+    </div>
+
+    {/* Contenu principal */}
+    <div className="mt-14 grid gap-8 md:grid-cols-3">
+
+      <article className="rounded-2xl border border-gray-200 bg-gray-50 p-8">
+        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-950 text-lg font-bold text-yellow-400">
+          01
+        </div>
+
+        <h3 className="mt-6 text-2xl font-bold text-blue-950">
+          Réfléchir
+        </h3>
+
+        <div className="mt-4 h-1 w-12 bg-yellow-400"></div>
+
+        <p className="mt-5 leading-8 text-gray-600">
+          Créer un espace où les universitaires, chercheurs, enseignants
+          et étudiants peuvent interroger les savoirs, confronter les
+          perspectives et développer une pensée autonome.
+        </p>
+      </article>
+
+      <article className="rounded-2xl border border-gray-200 bg-gray-50 p-8">
+        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-950 text-lg font-bold text-yellow-400">
+          02
+        </div>
+
+        <h3 className="mt-6 text-2xl font-bold text-blue-950">
+          Rechercher
+        </h3>
+
+        <div className="mt-4 h-1 w-12 bg-yellow-400"></div>
+
+        <p className="mt-5 leading-8 text-gray-600">
+          Favoriser une recherche rigoureuse, interdisciplinaire et
+          attentive aux réalités africaines, tout en établissant des
+          passerelles avec les recherches internationales.
+        </p>
+      </article>
+
+      <article className="rounded-2xl border border-gray-200 bg-gray-50 p-8">
+        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-950 text-lg font-bold text-yellow-400">
+          03
+        </div>
+
+        <h3 className="mt-6 text-2xl font-bold text-blue-950">
+          Partager
+        </h3>
+
+        <div className="mt-4 h-1 w-12 bg-yellow-400"></div>
+
+        <p className="mt-5 leading-8 text-gray-600">
+          Rassembler des compétences et valoriser les connaissances
+          afin de contribuer au développement scientifique, éducatif
+          et social des sociétés.
+        </p>
+      </article>
+
+    </div>
+
+    {/* Ambition */}
+    <div className="mt-14 rounded-2xl border-l-4 border-yellow-400 bg-blue-950 p-8 text-white md:p-10">
+      <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-400">
+        Notre ambition
+      </p>
+
+      <p className="mt-4 max-w-4xl text-lg leading-8 text-blue-100 md:text-xl">
+        Transformer les idées en contributions scientifiques utiles,
+        encourager l’autonomie intellectuelle et participer à la
+        construction d’une culture du savoir ouverte, rigoureuse et
+        particulièrement attentive aux réalités africaines.
+      </p>
+    </div>
+
+  </div>
+</section>
 
 {/* Fondateur */}
 <section id="fondateur" className="bg-gray-50 px-6 py-24">
