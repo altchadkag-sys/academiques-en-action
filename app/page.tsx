@@ -365,7 +365,7 @@ export default function Home() {
     {/* Présentation */}
     <div className="mt-12 grid gap-12 lg:grid-cols-[1.5fr_1fr]">
 
-      <div className="space-y-6 text-lg leading-8 text-gray-700">
+      <div className="space-y-4 text-lg leading-8 text-gray-700">
 
         <p>
           Docteur en théologie, spécialisé en <strong>Ancien Testament</strong>,
