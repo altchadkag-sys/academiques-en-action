@@ -916,15 +916,37 @@ export default function Home() {
         un accompagnement académique, contactez Académiques en Action.
       </p>
 
-      <div className="mt-10">
-        <a
-          href="mailto:contact@academiques-en-action.com"
-          className="inline-flex items-center rounded-full bg-yellow-400 px-8 py-4 font-bold text-blue-950 transition hover:bg-yellow-300"
-        >
-          contact@academiques-en-action.com
-        </a>
-      </div>
+      <div className="mt-10 flex flex-col items-center gap-5">
 
+  <a
+    href="mailto:contact@academiques-en-action.com"
+    className="inline-flex items-center rounded-full bg-yellow-400 px-8 py-4 font-bold text-blue-950 transition hover:bg-yellow-300"
+  >
+    contact@academiques-en-action.com
+  </a>
+
+  <div className="flex flex-wrap justify-center gap-6 text-lg font-semibold">
+
+    <a
+      href="https://www.facebook.com/profile.php?id=61582416335658"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="transition hover:text-yellow-300"
+    >
+      👍 Facebook — Académiques en Action
+    </a>
+
+    <a
+      href="https://www.youtube.com/@Acad%C3%A9miquesenAction"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="transition hover:text-yellow-300"
+    >
+      ▶️ YouTube — Académiques en Action
+    </a>
+
+  </div>
+</div>
       <p className="mt-6 text-sm text-blue-200">
         Laboratoire R & RA — Réflexion & Référence Africaine
       </p>
