@@ -1,10 +1,10 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-900">
-      {/* En-tête */}
-      
+  {/* En-tête */}
+
 <header className="border-b-2 border-yellow-600 bg-white">
-  <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">S
+  <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
 
     {/* Logo et identité du laboratoire */}
     <div className="flex items-center gap-4">
@@ -16,82 +16,78 @@ export default function Home() {
 
       <div>
         <h1 className="text-2xl font-bold tracking-tight text-blue-950">
-  Académiques en Action
-</h1>
+          Académiques en Action
+        </h1>
+
         <p className="mt-1 text-sm font-medium tracking-wide text-gray-500">
-  Laboratoire R & RA — Réflexion & Référence Africaine
-</p>
+          Laboratoire R & RA — Réflexion & Référence Africaine
+        </p>
       </div>
     </div>
 
     {/* Menu de navigation */}
-    
-    
-<nav className="hidden items-center gap-5 text-sm font-medium text-blue-950 md:flex">
-  <a
-    href="#accueil"
-    className="transition hover:text-yellow-600"
-  >
-    Accueil
-  </a>
+    <nav className="hidden items-center gap-5 text-sm font-medium text-blue-950 md:flex">
 
-  <a
-    href="#mission"
-    className="transition hover:text-yellow-600"
-  >
-    Notre mission
-  </a>
+      <a
+        href="#accueil"
+        className="transition hover:text-yellow-600"
+      >
+        Accueil
+      </a>
 
-  <a
-    href="#presentation"
-    className="transition hover:text-yellow-600"
-  >
-    <a
-    href="#presentation"
-    className="transition hover:text-yellow-600"
-  >
-    Présentation
-  </a>
+      <a
+        href="#mission"
+        className="transition hover:text-yellow-600"
+      >
+        Notre mission
+      </a>
 
-  <a
-    href="#fondateur"
-    className="transition hover:text-yellow-600"
-  >
-    Fondateur
-  </a>
+      <a
+        href="#presentation"
+        className="transition hover:text-yellow-600"
+      >
+        Présentation
+      </a>
 
-  <a
-    href="#recherche"
-    className="transition hover:text-yellow-600"
-  >
-    Recherche
-  </a> 
-  <a
-    href="#axes"
-    className="transition hover:text-yellow-600"
-  >
-    Axes de recherche
-  </a>
+      <a
+        href="#fondateur"
+        className="transition hover:text-yellow-600"
+      >
+        Fondateur
+      </a>
 
-  <a
-    href="#formation"
-    className="transition hover:text-yellow-600"
-  >
-    Formation
-  </a>
+      <a
+        href="#recherche"
+        className="transition hover:text-yellow-600"
+      >
+        Recherche
+      </a>
 
-  <a
-    href="#contact"
-    className="transition hover:text-yellow-600"
-  >
-    Contact
-  </a>
-</nav>
-  
+      <a
+        href="#axes"
+        className="transition hover:text-yellow-600"
+      >
+        Axes de recherche
+      </a>
+
+      <a
+        href="#formation"
+        className="transition hover:text-yellow-600"
+      >
+        Formation
+      </a>
+
+      <a
+        href="#contact"
+        className="transition hover:text-yellow-600"
+      >
+        Contact
+      </a>
+
+    </nav>
 
   </div>
-</header>
- 
+</header>   
 
       {/* Section principale */}
       
