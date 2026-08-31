@@ -562,95 +562,149 @@ export default function Home() {
 
   </div>
 </section>
-
-      {/* Nos axes de réflexions */}
-<section id="axes" className="bg-white px-6 py-24">
+      
+{/* Nos axes de réflexions */}
+<section id="axes" className="bg-gray-50 px-6 py-24">
   <div className="mx-auto max-w-6xl">
 
-    <div className="max-w-3xl">
-      <p className="text-sm font-semibold uppercase tracking-[0.25em] text-blue-700">
+    {/* En-tête */}
+    <div className="max-w-4xl">
+      <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-600">
         Nos axes de recherche
       </p>
 
-      <h2 className="mt-3 text-3xl font-bold text-blue-950 md:text-4xl">
+      <h2 className="mt-3 text-3xl font-bold text-blue-950 md:text-5xl">
         Penser le savoir, comprendre le monde, transformer les perspectives.
       </h2>
 
       <div className="mt-5 h-1 w-20 bg-yellow-400"></div>
 
-      <p className="mt-6 text-lg leading-8 text-gray-600">
+      <p className="mt-6 text-lg leading-8 text-gray-700 md:text-xl">
         Trois axes structurent la réflexion d’Académiques en Action et
-        permettent d’explorer les grandes questions liées au savoir, à la
-        recherche, à l’éducation et aux sociétés contemporaines.
+        permettent d’explorer les grandes questions liées au savoir,
+        à la recherche, à l’éducation et aux sociétés contemporaines.
       </p>
     </div>
 
-    <div className="mt-14 grid gap-8 md:grid-cols-3">
+    {/* Les trois axes */}
+    <div className="mt-14 grid gap-8 lg:grid-cols-3">
 
       {/* Axe 1 */}
-      <article className="group rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
-        <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full bg-blue-950 text-lg font-bold text-yellow-400">
+      <article className="flex flex-col rounded-3xl border border-gray-200 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+
+        <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-950 text-xl font-bold text-yellow-400">
           01
         </div>
 
-        <h3 className="text-2xl font-bold text-blue-950">
+        <p className="mt-7 text-sm font-semibold uppercase tracking-widest text-yellow-600">
+          Axe de recherche
+        </p>
+
+        <h3 className="mt-2 text-2xl font-bold text-blue-950">
           La Chronique du Savoir
         </h3>
 
-        <div className="mt-4 h-1 w-12 bg-yellow-400"></div>
+        <div className="mt-5 h-1 w-12 bg-yellow-400"></div>
 
-        <p className="mt-5 leading-8 text-gray-600">
+        <p className="mt-6 flex-1 leading-8 text-gray-600">
           Épistémologie, méthodologie et écriture scientifique. Comprendre
           comment se construit le savoir scientifique, maîtriser les méthodes
-          de recherche et affirmer une écriture académique rigoureuse et
-          autonome.
+          de recherche et développer une écriture académique rigoureuse,
+          autonome et structurée.
         </p>
+
+        <div className="mt-8 border-t border-gray-200 pt-5">
+          <p className="text-sm font-semibold text-blue-900">
+            Méthodologie • Épistémologie • Écriture scientifique
+          </p>
+        </div>
+
       </article>
 
       {/* Axe 2 */}
-      <article className="group rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
-        <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full bg-blue-950 text-lg font-bold text-yellow-400">
+      <article className="flex flex-col rounded-3xl border border-gray-200 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+
+        <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-950 text-xl font-bold text-yellow-400">
           02
         </div>
 
-        <h3 className="text-2xl font-bold text-blue-950">
+        <p className="mt-7 text-sm font-semibold uppercase tracking-widest text-yellow-600">
+          Axe de recherche
+        </p>
+
+        <h3 className="mt-2 text-2xl font-bold text-blue-950">
           La Géopolitique du Savoir
         </h3>
 
-        <div className="mt-4 h-1 w-12 bg-yellow-400"></div>
+        <div className="mt-5 h-1 w-12 bg-yellow-400"></div>
 
-        <p className="mt-5 leading-8 text-gray-600">
+        <p className="mt-6 flex-1 leading-8 text-gray-600">
           Pourquoi le savoir est-il un enjeu de pouvoir mondial ? Décrypter
-          les rapports de force autour de la production, de la circulation et
-          de la légitimation du savoir, entre domination et émancipation.
+          les rapports de force autour de la production, de la circulation
+          et de la légitimation du savoir, entre domination, influence
+          et émancipation.
         </p>
+
+        <div className="mt-8 border-t border-gray-200 pt-5">
+          <p className="text-sm font-semibold text-blue-900">
+            Pouvoir • Savoir • Géopolitique
+          </p>
+        </div>
+
       </article>
 
       {/* Axe 3 */}
-      <article className="group rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
-        <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full bg-blue-950 text-lg font-bold text-yellow-400">
+      <article className="flex flex-col rounded-3xl border border-gray-200 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+
+        <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-950 text-xl font-bold text-yellow-400">
           03
         </div>
 
-        <h3 className="text-2xl font-bold text-blue-950">
+        <p className="mt-7 text-sm font-semibold uppercase tracking-widest text-yellow-600">
+          Axe de recherche
+        </p>
+
+        <h3 className="mt-2 text-2xl font-bold text-blue-950">
           Sciences de l’Éducation en Afrique
         </h3>
 
-        <div className="mt-4 h-1 w-12 bg-yellow-400"></div>
+        <div className="mt-5 h-1 w-12 bg-yellow-400"></div>
 
-        <p className="mt-5 leading-8 text-gray-600">
-          Interroger la dépendance intellectuelle du continent et la domination
-          des cadres épistémologiques importés. Revisiter les sciences, la
-          médecine et les systèmes éducatifs africains précoloniaux. Un
-          plaidoyer pour la décolonisation des savoirs et la souveraineté
-          intellectuelle africaine.
+        <p className="mt-6 flex-1 leading-8 text-gray-600">
+          Interroger la dépendance intellectuelle du continent et la
+          domination des cadres épistémologiques importés. Revisiter
+          les sciences, la médecine et les systèmes éducatifs africains
+          précoloniaux afin de réfléchir à la décolonisation des savoirs
+          et à la souveraineté intellectuelle africaine.
         </p>
+
+        <div className="mt-8 border-t border-gray-200 pt-5">
+          <p className="text-sm font-semibold text-blue-900">
+            Éducation • Afrique • Souveraineté intellectuelle
+          </p>
+        </div>
+
       </article>
 
     </div>
+
+    {/* Conclusion */}
+    <div className="mt-14 rounded-3xl bg-blue-950 p-8 text-white md:p-10">
+      <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-400">
+        Une vision commune
+      </p>
+
+      <p className="mt-4 max-w-4xl text-lg leading-8 text-blue-100 md:text-xl">
+        Ces trois axes participent à une même ambition : développer une
+        culture scientifique fondée sur la rigueur, l’autonomie intellectuelle,
+        le dialogue entre les disciplines et la valorisation des savoirs
+        africains.
+      </p>
+    </div>
+
   </div>
-          
-      </section>
+</section>
+  
     {/* Formation / Tutorat / Master / Doctorat */}
 <section id="formation" className="bg-blue-950 px-6 py-24 text-white">
   <div className="mx-auto max-w-6xl">
