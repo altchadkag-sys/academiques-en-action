@@ -278,7 +278,7 @@ export default function Home() {
       </p>
 
     </div>
-<div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+<div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
 
   <article className="rounded-2xl border border-gray-200 bg-white p-7 shadow-sm">
     <h3 className="text-xl font-bold text-blue-900">
@@ -319,7 +319,16 @@ export default function Home() {
       la rigueur scientifique et la valorisation des savoirs.
     </p>
   </article>
-
+  <article className="rounded-2xl border border-gray-200 bg-white p-7 shadow-sm">
+    <h3 className="text-xl font-bold text-blue-900">
+      Langues anciennes
+    </h3>
+    <p className="mt-3 leading-7 text-gray-600">
+      Connaissances en hébreu biblique, en akkadien et en grec,
+      au service de l’étude des textes anciens et de leur contexte
+      historique, culturel et religieux.
+    </p>
+  </article>
 </div>
 
   </div>
