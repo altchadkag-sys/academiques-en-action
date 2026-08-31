@@ -12,7 +12,7 @@ export default function Home() {
         src="/logo-academiques.png" 
         alt="Logo Académiques en Action"
         className="h-20 w-auto object-contain" 
-      />
+      /> 
 
       <div>
         <h1 className=" text-[22px] font-bold tracking-tight text-blue-950">
@@ -350,9 +350,9 @@ export default function Home() {
         Le Fondateur
       </p>
 
-      <h2 className="mt-3 text-3xl font-bold text-blue-950 md:text-5xl">
-        Dr. Samson N'Taadjèl KAGMATCHÉ
-      </h2>
+      <h2 className="mt-3 text-[22px] font-bold text-blue-950">
+  Dr. Samson N'Taadjèl KAGMATCHÉ
+</h2>
 
       <div className="mt-5 h-1 w-20 bg-yellow-400"></div>
 
