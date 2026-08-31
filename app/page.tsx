@@ -926,7 +926,12 @@ export default function Home() {
   </a>
 
   <div className="flex flex-wrap justify-center gap-6 text-lg font-semibold">
-
+<a
+  href="tel:+14389349894"
+  className="text-lg font-semibold transition hover:text-yellow-300"
+>
+  📞 Téléphone : 1-438-934-9894
+</a>
     <a
       href="https://www.facebook.com/profile.php?id=61582416335658"
       target="_blank"
