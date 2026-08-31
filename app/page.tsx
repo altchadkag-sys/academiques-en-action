@@ -24,67 +24,67 @@ export default function Home() {
         </p>
       </div>
     </div>
+{/* Menu de navigation */}
+<nav className="hidden items-center gap-6 text-sm font-semibold text-blue-950 md:flex">
 
-    {/* Menu de navigation */}
-    <nav className="hidden items-center gap-5 text-sm font-medium text-blue-950 md:flex">
+  <a
+    href="#accueil"
+    className="border-b-2 border-transparent py-2 transition hover:border-yellow-500 hover:text-yellow-600"
+  >
+    Accueil
+  </a>
 
-      <a
-        href="#accueil"
-        className="transition hover:text-yellow-600"
-      >
-        Accueil
-      </a>
+  <a
+    href="#mission"
+    className="border-b-2 border-transparent py-2 transition hover:border-yellow-500 hover:text-yellow-600"
+  >
+    Notre mission
+  </a>
 
-      <a
-        href="#mission"
-        className="transition hover:text-yellow-600"
-      >
-        Notre mission
-      </a>
+  <a
+    href="#presentation"
+    className="border-b-2 border-transparent py-2 transition hover:border-yellow-500 hover:text-yellow-600"
+  >
+    Présentation
+  </a>
 
-      <a
-        href="#presentation"
-        className="transition hover:text-yellow-600"
-      >
-        Présentation
-      </a>
+  <a
+    href="#fondateur"
+    className="border-b-2 border-transparent py-2 transition hover:border-yellow-500 hover:text-yellow-600"
+  >
+    Fondateur
+  </a>
 
-      <a
-        href="#fondateur"
-        className="transition hover:text-yellow-600"
-      >
-        Fondateur
-      </a>
+  <a
+    href="#recherche"
+    className="border-b-2 border-transparent py-2 transition hover:border-yellow-500 hover:text-yellow-600"
+  >
+    Recherche
+  </a>
 
-      <a
-        href="#recherche"
-        className="transition hover:text-yellow-600"
-      >
-        Recherche
-      </a>
+  <a
+    href="#axes"
+    className="border-b-2 border-transparent py-2 transition hover:border-yellow-500 hover:text-yellow-600"
+  >
+    Axes de recherche
+  </a>
 
-      <a
-        href="#axes"
-        className="transition hover:text-yellow-600"
-      >
-        Axes de recherche
-      </a>
+  <a
+    href="#formation"
+    className="border-b-2 border-transparent py-2 transition hover:border-yellow-500 hover:text-yellow-600"
+  >
+    Formation
+  </a>
 
-      <a
-        href="#formation"
-        className="transition hover:text-yellow-600"
-      >
-        Formation
-      </a>
+  <a
+    href="#contact"
+    className="rounded-full bg-blue-950 px-5 py-2.5 text-white transition hover:bg-blue-800"
+  >
+    Contact
+  </a>
 
-      <a
-        href="#contact"
-        className="transition hover:text-yellow-600"
-      >
-        Contact
-      </a>
-
-    </nav>
+</nav>
+   
 
   </div>
 </header>   
