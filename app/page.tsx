@@ -362,39 +362,49 @@ export default function Home() {
       </p>
 
     </div>
+<div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
 
-    <div className="mt-12 grid gap-6 md:grid-cols-3">
+  <article className="rounded-2xl border border-gray-200 bg-white p-7 shadow-sm">
+    <h3 className="text-xl font-bold text-blue-900">
+      Théologie
+    </h3>
+    <p className="mt-3 leading-7 text-gray-600">
+      Spécialisation en théologie et recherche sur l’Ancien Testament.
+    </p>
+  </article>
 
-      <article className="rounded-2xl border border-gray-200 bg-white p-7 shadow-sm">
-        <h3 className="text-xl font-bold text-blue-900">
-          Théologie
-        </h3>
-        <p className="mt-3 leading-7 text-gray-600">
-          Spécialisation en théologie et recherche sur l’Ancien Testament.
-        </p>
-      </article>
+  <article className="rounded-2xl border border-gray-200 bg-white p-7 shadow-sm">
+    <h3 className="text-xl font-bold text-blue-900">
+      Archéologie
+    </h3>
+    <p className="mt-3 leading-7 text-gray-600">
+      Formation en archéologie du Proche-Orient ancien et approche
+      interdisciplinaire des mondes anciens.
+    </p>
+  </article>
 
-      <article className="rounded-2xl border border-gray-200 bg-white p-7 shadow-sm">
-        <h3 className="text-xl font-bold text-blue-900">
-          Archéologie
-        </h3>
-        <p className="mt-3 leading-7 text-gray-600">
-          Formation en archéologie du Proche-Orient ancien et approche
-          interdisciplinaire des mondes anciens.
-        </p>
-      </article>
+  <article className="rounded-2xl border border-gray-200 bg-white p-7 shadow-sm">
+    <h3 className="text-xl font-bold text-blue-900">
+      Sciences de l’Éducation
+    </h3>
+    <p className="mt-3 leading-7 text-gray-600">
+      Parcours de maîtrise en Sciences de l’Éducation, avec un intérêt
+      particulier pour la formation, la transmission des savoirs et
+      le développement de l’autonomie intellectuelle.
+    </p>
+  </article>
 
-      <article className="rounded-2xl border border-gray-200 bg-white p-7 shadow-sm">
-        <h3 className="text-xl font-bold text-blue-900">
-          Recherche
-        </h3>
-        <p className="mt-3 leading-7 text-gray-600">
-          Une démarche fondée sur le dialogue entre les disciplines,
-          la rigueur scientifique et la valorisation des savoirs.
-        </p>
-      </article>
+  <article className="rounded-2xl border border-gray-200 bg-white p-7 shadow-sm">
+    <h3 className="text-xl font-bold text-blue-900">
+      Recherche
+    </h3>
+    <p className="mt-3 leading-7 text-gray-600">
+      Une démarche fondée sur le dialogue entre les disciplines,
+      la rigueur scientifique et la valorisation des savoirs.
+    </p>
+  </article>
 
-    </div>
+</div>
 
   </div>
 </section>
