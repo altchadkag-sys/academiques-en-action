@@ -501,9 +501,9 @@ export default function Home() {
           Recherche & réflexion
         </p>
 
-        <h2 className="mt-3 text-3xl font-bold text-blue-950 md:text-5xl">
-          Produire du savoir, éclairer les enjeux, ouvrir des perspectives.
-        </h2>
+        <h2 className="mt-3 text-[22px] font-bold text-blue-950">
+  Produire du savoir, éclairer les enjeux, ouvrir des perspectives.
+</h2>
 
         <div className="mt-5 h-1 w-20 bg-yellow-400"></div>
       </div>
