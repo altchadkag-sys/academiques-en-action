@@ -98,7 +98,7 @@ export default function Home() {
 >
   {/* Image de fond */}
   <img
-    src="/hero-bibliotheque.jpg"
+    src="/hero-bibliotheque.png"
     alt="Livre ouvert devant une bibliothèque universitaire"
     className="absolute inset-0 h-full w-full object-cover"
   />
