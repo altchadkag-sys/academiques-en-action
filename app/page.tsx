@@ -20,7 +20,7 @@ export default function Home() {
         </h1>
 
         <p className="mt-1 text-sm font-medium tracking-wide text-gray-500">
-          Laboratoire R & RA — Réflexion & Référence Africaine
+          Laboratoire R & RA – Réflexion & Référence Africaine
         </p>
       </div>
     </div>
