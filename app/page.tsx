@@ -90,11 +90,10 @@ export default function Home() {
 </header>   
 
       {/* Section principale */}
-      
-{/* Section Hero */}
+  {/* Section Hero */}
 <section
   id="accueil"
-  className="relative min-h-[620px] overflow-hidden"
+  className="relative min-h-[680px] overflow-hidden"
 >
   {/* Image de fond */}
   <img
@@ -104,27 +103,27 @@ export default function Home() {
   />
 
   {/* Voile bleu institutionnel */}
-  <div className="absolute inset-0 bg-blue-950/75"></div>
+  <div className="absolute inset-0 bg-blue-950/70"></div>
 
   {/* Contenu */}
-  <div className="relative z-10 mx-auto flex min-h-[620px] max-w-7xl items-center px-6 py-24">
+  <div className="relative z-10 mx-auto flex min-h-[680px] max-w-7xl items-center px-6 py-24">
     <div className="max-w-4xl">
 
       <p className="mb-5 text-sm font-semibold uppercase tracking-[0.3em] text-yellow-400">
         Laboratoire R & RA — Réflexion & Référence Africaine
       </p>
 
-      <h2 className="text-4xl font-bold leading-tight text-white md:text-6xl">
+      <h2 className="text-5xl font-bold leading-tight text-white md:text-7xl">
         Académiques en Action
       </h2>
 
-      <div className="mt-6 h-1 w-24 bg-yellow-400"></div>
+      <div className="mt-7 h-1 w-24 bg-yellow-400"></div>
 
-      <p className="mt-6 text-xl font-medium text-blue-100 md:text-2xl">
+      <p className="mt-7 text-xl font-medium text-blue-100 md:text-2xl">
         Recherche • Formation • Réflexion
       </p>
 
-      <p className="mt-6 max-w-3xl text-lg leading-8 text-white md:text-xl">
+      <p className="mt-6 max-w-3xl text-xl font-semibold leading-8 text-white md:text-2xl">
         Transformer des idées en contribution scientifique.
       </p>
 
@@ -137,14 +136,14 @@ export default function Home() {
       <div className="mt-10 flex flex-col gap-4 sm:flex-row">
         <a
           href="#mission"
-          className="rounded-full bg-yellow-400 px-7 py-3 text-center font-semibold text-blue-950 transition hover:bg-yellow-300"
+          className="rounded-full bg-yellow-400 px-8 py-3.5 text-center font-semibold text-blue-950 transition hover:bg-yellow-300"
         >
           Découvrir notre mission
         </a>
 
         <a
           href="#contact"
-          className="rounded-full border border-yellow-400 px-7 py-3 text-center font-semibold text-yellow-400 transition hover:bg-yellow-400 hover:text-blue-950"
+          className="rounded-full border border-yellow-400 px-8 py-3.5 text-center font-semibold text-yellow-400 transition hover:bg-yellow-400 hover:text-blue-950"
         >
           Nous contacter
         </a>
@@ -152,7 +151,8 @@ export default function Home() {
 
     </div>
   </div>
-</section>
+</section>    
+
       {/* Mission */}
       <section id="mission" className="px-6 py-20">
         <div className="mx-auto max-w-6xl">
