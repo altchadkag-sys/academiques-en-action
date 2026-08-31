@@ -490,20 +490,79 @@ export default function Home() {
 </section>
 
 {/* Recherche */}
-  <section id="recherche" className="bg-gray-50 px-6 py-20">
-        <div className="mx-auto max-w-6xl">
-          <h2 className="text-3xl font-bold text-gray-900">
-            Recherche & réflexion
-          </h2>
+<section id="recherche" className="bg-white px-6 py-24">
+  <div className="mx-auto max-w-6xl">
 
-          <p className="mt-4 max-w-3xl text-lg leading-8 text-gray-600">
-            Un espace pour développer des analyses, des recherches et des
-            productions scientifiques sur les grands enjeux du savoir,
-            de l’éducation et des sociétés contemporaines.
+    <div className="grid gap-12 lg:grid-cols-[1fr_1.5fr] lg:items-center">
+
+      {/* Titre */}
+      <div>
+        <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-600">
+          Recherche & réflexion
+        </p>
+
+        <h2 className="mt-3 text-3xl font-bold text-blue-950 md:text-5xl">
+          Produire du savoir, éclairer les enjeux, ouvrir des perspectives.
+        </h2>
+
+        <div className="mt-5 h-1 w-20 bg-yellow-400"></div>
+      </div>
+
+      {/* Texte */}
+      <div>
+        <p className="text-lg leading-8 text-gray-700 md:text-xl">
+          Académiques en Action développe un espace consacré à la recherche,
+          à l’analyse et à la réflexion scientifique sur les grands enjeux
+          du savoir, de l’éducation et des sociétés contemporaines.
+        </p>
+
+        <p className="mt-5 text-lg leading-8 text-gray-600">
+          Notre démarche privilégie le dialogue entre les disciplines,
+          la rigueur méthodologique et la valorisation de perspectives
+          africaines dans les débats scientifiques nationaux et
+          internationaux.
+        </p>
+      </div>
+
+    </div>
+
+    {/* Bandeau institutionnel */}
+    <div className="mt-14 rounded-3xl bg-blue-950 p-8 text-white md:p-10">
+      <div className="grid gap-8 md:grid-cols-3">
+
+        <div>
+          <p className="text-3xl font-bold text-yellow-400">
+            Recherche
+          </p>
+          <p className="mt-2 leading-7 text-blue-100">
+            Produire et approfondir les connaissances.
           </p>
         </div>
-      </section>
-      
+
+        <div>
+          <p className="text-3xl font-bold text-yellow-400">
+            Analyse
+          </p>
+          <p className="mt-2 leading-7 text-blue-100">
+            Comprendre les transformations du monde contemporain.
+          </p>
+        </div>
+
+        <div>
+          <p className="text-3xl font-bold text-yellow-400">
+            Perspective
+          </p>
+          <p className="mt-2 leading-7 text-blue-100">
+            Ouvrir de nouvelles voies de réflexion scientifique.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
       {/* Nos axes de réflexions */}
 <section id="axes" className="bg-white px-6 py-24">
   <div className="mx-auto max-w-6xl">
