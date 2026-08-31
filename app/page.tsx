@@ -9,7 +9,7 @@ export default function Home() {
     {/* Logo et identité du laboratoire */}
     <div className="flex items-center gap-4">
       <img
-        src="/logo-academiques.png" 
+        src="/logo-academiques.png"  
         alt="Logo Académiques en Action"
         className="h-20 w-auto object-contain" 
       /> 
@@ -905,9 +905,9 @@ export default function Home() {
         Contact
       </p>
 
-      <h2 className="mt-3 text-3xl font-bold md:text-5xl">
-        Construisons ensemble une culture du savoir.
-      </h2>
+     <h2 className="mt-3 text-[22px] font-bold">
+  Construisons ensemble une culture du savoir.
+</h2>
 
       <div className="mx-auto mt-5 h-1 w-20 bg-yellow-400"></div>
 
