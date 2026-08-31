@@ -250,9 +250,9 @@ export default function Home() {
         Présentation du laboratoire
       </p>
 
-      <h2 className="mt-3 text-3xl font-bold text-blue-950 md:text-5xl">
-        Un espace de réflexion, de recherche et de référence.
-      </h2>
+     <h2 className="mt-3 text-[22px] font-bold text-blue-950">
+  Un espace de réflexion, de recherche et de référence.
+</h2>
 
       <div className="mt-5 h-1 w-20 bg-yellow-400"></div>
 
