@@ -91,7 +91,6 @@ export default function Home() {
 
       {/* Section principale */}
    
-```jsx
 {/* Section Hero */}
 <section
   id="accueil"
