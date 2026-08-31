@@ -11,7 +11,7 @@ export default function Home() {
       <img
         src="/logo-academiques.png" 
         alt="Logo Académiques en Action"
-        className="h-20 w-auto object-contain"
+        className="h-20 w-auto object-contain" 
       />
 
       <div>
@@ -215,7 +215,7 @@ export default function Home() {
           Accompagner les étudiants, chercheurs et professionnels dans
           leur parcours intellectuel et méthodologique.
         </p>
-      </article>
+      </article> 
 
       {/* Action */}
       <article className="group rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
@@ -715,9 +715,9 @@ export default function Home() {
         Formation académique
       </p>
 
-      <h2 className="mt-3 text-3xl font-bold md:text-5xl">
-        Accompagner les étudiants, développer leur autonomie scientifique.
-      </h2>
+      <h2 className="mt-3 text-[22px] font-bold">
+  Accompagner les étudiants, développer leur autonomie scientifique.
+</h2>
 
       <div className="mt-5 h-1 w-20 bg-yellow-400"></div>
 
