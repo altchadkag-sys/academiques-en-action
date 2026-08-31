@@ -154,60 +154,92 @@ export default function Home() {
   </div>
 </section>
 
-      {/* Mission */}
-      <section id="mission" className="px-6 py-20">
-        <div className="mx-auto max-w-6xl">
-          <div className="max-w-3xl">
-            <p className="text-sm font-semibold uppercase tracking-widest text-yellow-600">
-              Notre mission
-            </p>
+{/* Mission */}
+<section id="mission" className="bg-gray-50 px-6 py-24">
+  <div className="mx-auto max-w-6xl">
 
-            <h2 className="mt-3 text-3xl font-bold text-gray-900 md:text-4xl">
-              Penser, rechercher, former et agir.
-            </h2>
+    {/* En-tête de section */}
+    <div className="max-w-4xl">
+      <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-600">
+        Notre mission
+      </p>
 
-            <p className="mt-6 text-lg leading-8 text-gray-600">
-              Académiques en Action est un espace consacré à la réflexion
-              scientifique, à la recherche, à la méthodologie et à la
-              formation intellectuelle. Notre ambition est de contribuer à
-              transformer les idées en véritables contributions scientifiques
-              et sociales.
-            </p>
-          </div>
+      <h2 className="mt-3 text-3xl font-bold text-blue-950 md:text-5xl">
+        Penser, rechercher, former et agir.
+      </h2>
 
-          <div className="mt-12 grid gap-6 md:grid-cols-3">
-            <article className="rounded-2xl border-t-4 border-blue-900 bg-white p-7 shadow-sm">
-              <h3 className="text-xl font-bold text-blue-900">
-                Recherche
-              </h3>
-              <p className="mt-3 leading-7 text-gray-600">
-                Développer une recherche rigoureuse, pertinente et ouverte sur
-                les réalités africaines et internationales.
-              </p>
-            </article>
+      <div className="mt-5 h-1 w-20 bg-yellow-400"></div>
 
-            <article className="rounded-2xl border-t-4 border-blue-900 bg-white p-7 shadow-sm">
-              <h3 className="text-xl font-bold text-blue-900">
-                Formation
-              </h3>
-              <p className="mt-3 leading-7 text-gray-600">
-                Accompagner les étudiants, chercheurs et professionnels dans
-                leur parcours intellectuel et méthodologique.
-              </p>
-            </article>
+      <p className="mt-6 text-lg leading-8 text-gray-700 md:text-xl">
+        Académiques en Action est un espace consacré à la réflexion
+        scientifique, à la recherche, à la méthodologie et à la formation
+        intellectuelle. Notre ambition est de contribuer à transformer les
+        idées en véritables contributions scientifiques et sociales.
+      </p>
+    </div>
 
-            <article className="rounded-2xl border-t-4 border-blue-900 bg-white p-7 shadow-sm">
-              <h3 className="text-xl font-bold text-blue-900">
-                Action
-              </h3>
-              <p className="mt-3 leading-7 text-gray-600">
-                Mettre le savoir au service de la société et encourager une
-                culture de responsabilité intellectuelle.
-              </p>
-            </article>
-          </div>
-        </div> 
-              </section>
+    {/* Les trois piliers */}
+    <div className="mt-14 grid gap-8 md:grid-cols-3">
+
+      {/* Recherche */}
+      <article className="group rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+        <div className="flex h-14 w-14 items-center justify-center rounded-full bg-blue-950 text-xl font-bold text-yellow-400">
+          01
+        </div>
+
+        <h3 className="mt-6 text-2xl font-bold text-blue-950">
+          Recherche
+        </h3>
+
+        <div className="mt-4 h-1 w-12 bg-yellow-400"></div>
+
+        <p className="mt-5 leading-8 text-gray-600">
+          Développer une recherche rigoureuse, pertinente et ouverte sur
+          les réalités africaines et internationales.
+        </p>
+      </article>
+
+      {/* Formation */}
+      <article className="group rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+        <div className="flex h-14 w-14 items-center justify-center rounded-full bg-blue-950 text-xl font-bold text-yellow-400">
+          02
+        </div>
+
+        <h3 className="mt-6 text-2xl font-bold text-blue-950">
+          Formation
+        </h3>
+
+        <div className="mt-4 h-1 w-12 bg-yellow-400"></div>
+
+        <p className="mt-5 leading-8 text-gray-600">
+          Accompagner les étudiants, chercheurs et professionnels dans
+          leur parcours intellectuel et méthodologique.
+        </p>
+      </article>
+
+      {/* Action */}
+      <article className="group rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+        <div className="flex h-14 w-14 items-center justify-center rounded-full bg-blue-950 text-xl font-bold text-yellow-400">
+          03
+        </div>
+
+        <h3 className="mt-6 text-2xl font-bold text-blue-950">
+          Action
+        </h3>
+
+        <div className="mt-4 h-1 w-12 bg-yellow-400"></div>
+
+        <p className="mt-5 leading-8 text-gray-600">
+          Mettre le savoir au service de la société et encourager une
+          culture de responsabilité intellectuelle.
+        </p>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
         {/* Présentation du laboratoire */}
 <section id="presentation" className="bg-white px-6 py-20">
      <div className="mx-auto max-w-6xl">
