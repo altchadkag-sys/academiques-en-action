@@ -91,50 +91,60 @@ export default function Home() {
 
       {/* Section principale */}
       
-{/* Section principale */}
+{/* Section Hero */}
 <section
   id="accueil"
-  className="relative overflow-hidden bg-blue-950 px-6 py-28 text-white"
+  className="relative min-h-[620px] overflow-hidden"
 >
-  <div className="mx-auto max-w-6xl">
+  {/* Image de fond */}
+  <img
+    src="/hero-bibliotheque.jpg"
+    alt="Livre ouvert devant une bibliothèque universitaire"
+    className="absolute inset-0 h-full w-full object-cover"
+  />
+
+  {/* Voile bleu institutionnel */}
+  <div className="absolute inset-0 bg-blue-950/75"></div>
+
+  {/* Contenu */}
+  <div className="relative z-10 mx-auto flex min-h-[620px] max-w-7xl items-center px-6 py-24">
     <div className="max-w-4xl">
 
       <p className="mb-5 text-sm font-semibold uppercase tracking-[0.3em] text-yellow-400">
-        Laboratoire R & RA
+        Laboratoire R & RA — Réflexion & Référence Africaine
       </p>
 
-      <h2 className="text-4xl font-bold leading-tight md:text-6xl">
+      <h2 className="text-4xl font-bold leading-tight text-white md:text-6xl">
         Académiques en Action
       </h2>
 
-      <div className="mt-5 h-1 w-24 bg-yellow-400"></div>
+      <div className="mt-6 h-1 w-24 bg-yellow-400"></div>
 
       <p className="mt-6 text-xl font-medium text-blue-100 md:text-2xl">
         Recherche • Formation • Réflexion
       </p>
 
-      <p className="mt-6 max-w-3xl text-lg leading-8 text-blue-100 md:text-xl">
-        Former des intellectuels, transformer les idées en contributions
-        scientifiques.
+      <p className="mt-6 max-w-3xl text-lg leading-8 text-white md:text-xl">
+        Transformer des idées en contribution scientifique.
       </p>
 
-      <p className="mt-5 max-w-3xl text-base leading-7 text-blue-200">
+      <p className="mt-5 max-w-3xl text-base leading-7 text-blue-100 md:text-lg">
         Académiques en Action accompagne la réflexion, la recherche et la
-        formation afin de contribuer à l’émergence de chercheurs, de
-        professionnels et de leaders compétents, intègres et engagés.
+        formation afin de contribuer à l’émergence de chercheurs,
+        de professionnels et de leaders compétents, intègres et engagés.
       </p>
 
       <div className="mt-10 flex flex-col gap-4 sm:flex-row">
         <a
           href="#mission"
-          className="rounded-full bg-yellow-400 px-7 py-3 font-semibold text-blue-950 transition hover:bg-yellow-300"
+          className="rounded-full bg-yellow-400 px-7 py-3 text-center font-semibold text-blue-950 transition hover:bg-yellow-300"
         >
           Découvrir notre mission
         </a>
 
         <a
           href="#contact"
-          className="rounded-full border border-yellow-400 px-7 py-3 font-semibold text-yellow-400 transition hover:bg-yellow-400 hover:text-blue-950"
+          className="rounded-full border border-yellow-400 px-7 py-3 text-center font-semibold text-yellow-400 transition hover:bg-yellow-400 hover:text-blue-950"
         >
           Nous contacter
         </a>
