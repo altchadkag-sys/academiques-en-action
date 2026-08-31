@@ -306,8 +306,6 @@ export default function Home() {
   </div>
 </section>
 
-</section>
-
 {/* Fondateur */}
 <section id="fondateur" className="bg-gray-50 px-6 py-24">
   <div className="mx-auto max-w-6xl">
