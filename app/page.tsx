@@ -934,16 +934,39 @@ export default function Home() {
   </div>
 </section>
 
-      {/* Pied de page */}
-      <footer className="border-t border-gray-200 bg-white px-6 py-8 text-center text-sm text-gray-500">
-  <p>
-    © {new Date().getFullYear()} Académiques en Action — Tous droits réservés.
-  </p>
+{/* Pied de page */}
+<footer className="border-t border-blue-900 bg-blue-950 px-6 py-10 text-white">
+  <div className="mx-auto max-w-6xl">
 
-  <p className="mt-2 text-gray-400">
-    Laboratoire R & RA — Réflexion & Référence Africaine
-  </p>
+    <div className="flex flex-col items-center justify-between gap-6 text-center md:flex-row md:text-left">
+
+      <div>
+        <p className="text-lg font-bold">
+          Académiques en Action
+        </p>
+
+        <p className="mt-2 text-sm text-blue-200">
+          Laboratoire R & RA — Réflexion & Référence Africaine
+        </p>
+      </div>
+
+      <div>
+        <p className="text-sm text-blue-200">
+          Transformer des idées en contribution scientifique.
+        </p>
+      </div>
+
+    </div>
+
+    <div className="mt-8 border-t border-blue-800 pt-6 text-center">
+      <p className="text-sm text-blue-300">
+        © {new Date().getFullYear()} Académiques en Action — Tous droits réservés.
+      </p>
+    </div>
+
+  </div>
 </footer>
+
     </main>
   );
 }
