@@ -75,7 +75,353 @@ export default function Home() {
   >
     Formation
   </a>
+{/* Publications */}
+<section id="publications" className="bg-white px-6 py-24">
+  <div className="mx-auto max-w-6xl">
 
+    {/* En-tête */}
+    <div className="max-w-4xl">
+      <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-600">
+        Publications
+      </p>
+
+      <h2 className="mt-3 text-[22px] font-bold text-blue-950 md:text-3xl">
+        Une production scientifique et littéraire au service du savoir.
+      </h2>
+
+      <div className="mt-5 h-1 w-20 bg-yellow-400"></div>
+
+      <p className="mt-6 text-lg leading-8 text-gray-700 md:text-xl">
+        Les travaux du fondateur d’Académiques en Action s’inscrivent dans
+        une démarche interdisciplinaire qui associe théologie, archéologie,
+        histoire, sciences de l’éducation et réflexion sur les sociétés.
+      </p>
+    </div>
+
+    {/* Ouvrages scientifiques */}
+    <div className="mt-14">
+      <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-600">
+        Ouvrages scientifiques
+      </p>
+
+      <div className="mt-8 grid gap-8 md:grid-cols-2">
+
+        {/* Publication 2011 */}
+        <article className="rounded-3xl border border-gray-200 bg-gray-50 p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+
+          <div className="flex items-center justify-between gap-4">
+            <span className="rounded-full bg-blue-950 px-4 py-1.5 text-sm font-bold text-yellow-400">
+              2011
+            </span>
+
+            <span className="text-sm font-semibold uppercase tracking-wider text-gray-500">
+              Ouvrage
+            </span>
+          </div>
+
+          <h3 className="mt-6 text-xl font-bold leading-8 text-blue-950">
+            Étude comparative entre les Lamassu et les chérubins bibliques
+          </h3>
+
+          <p className="mt-4 leading-7 text-gray-600">
+            L’Harmattan, Paris, 176 pages.
+          </p>
+
+        </article>
+
+        {/* Publication 2018 */}
+        <article className="rounded-3xl border border-gray-200 bg-gray-50 p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+
+          <div className="flex items-center justify-between gap-4">
+            <span className="rounded-full bg-blue-950 px-4 py-1.5 text-sm font-bold text-yellow-400">
+              2018
+            </span>
+
+            <span className="text-sm font-semibold uppercase tracking-wider text-gray-500">
+              Ouvrage
+            </span>
+          </div>
+
+          <h3 className="mt-6 text-xl font-bold leading-8 text-blue-950">
+            The God of Mount Carmel: Contending Views about the Deity Associated with the Biblical Mount Carmel
+          </h3>
+
+          <p className="mt-4 leading-7 text-gray-600">
+            Lambert Academic Publishing, Saarbrücken, 300 pages.
+          </p>
+
+        </article>
+
+      </div>
+    </div>
+
+    {/* Chapitre collectif */}
+    <div className="mt-16">
+
+      <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-600">
+        Contribution scientifique
+      </p>
+
+      <article className="mt-8 rounded-3xl border border-gray-200 bg-white p-8 shadow-sm md:p-10">
+
+        <div className="flex flex-wrap items-center gap-4">
+          <span className="rounded-full bg-blue-950 px-4 py-1.5 text-sm font-bold text-yellow-400">
+            2019
+          </span>
+
+          <span className="text-sm font-semibold uppercase tracking-wider text-gray-500">
+            Chapitre dans un ouvrage collectif
+          </span>
+        </div>
+
+        <h3 className="mt-6 text-xl font-bold leading-8 text-blue-950 md:text-2xl">
+          « Lamassu in Ancient Near Eastern Beliefs »
+        </h3>
+
+        <p className="mt-4 text-lg leading-8 text-gray-600">
+          In <em>Belief Phenomenon and Administrative Conception in the
+          Ancient Age of Mesopotamia</em>, Prof. Dr. L. Gürkan GÖKÇEK (dir.),
+          2019.
+        </p>
+
+      </article>
+    </div>
+
+    {/* Œuvre littéraire */}
+    <div className="mt-16">
+
+      <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-600">
+        Œuvre littéraire
+      </p>
+
+      <article className="mt-8 rounded-3xl bg-blue-950 p-8 text-white shadow-lg md:p-10">
+
+        <div className="flex flex-wrap items-center gap-4">
+          <span className="rounded-full bg-yellow-400 px-4 py-1.5 text-sm font-bold text-blue-950">
+            2025
+          </span>
+
+          <span className="text-sm font-semibold uppercase tracking-wider text-blue-200">
+            Roman
+          </span>
+        </div>
+
+        <h3 className="mt-6 text-2xl font-bold leading-9">
+          <em>De la Rose à la Ronce</em>
+        </h3>
+
+        <p className="mt-4 text-lg leading-8 text-blue-100">
+          Samson N’Taadjèl KAGMATCHÉ, Guérin Scholar’s Press, Montréal,
+          2025, 132 pages.
+        </p>
+
+      </article>
+    </div>
+
+    {/* Ouvrage en cours */}
+    <div className="mt-16">
+
+      <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-600">
+        Ouvrage en cours
+      </p>
+
+      <article className="mt-8 rounded-3xl border-l-4 border-yellow-400 bg-gray-50 p-8 md:p-10">
+
+        <span className="inline-flex rounded-full bg-blue-950 px-4 py-1.5 text-sm font-bold text-yellow-400">
+          En cours d’élaboration
+        </span>
+
+        <h3 className="mt-6 text-xl font-bold leading-8 text-blue-950 md:text-2xl">
+          <em>
+            Émancipation des femmes au XXIe siècle : combat du siècle ou
+            combat des sexes ?
+          </em>
+        </h3>
+
+        <p className="mt-4 text-lg leading-8 text-gray-600">
+          Ouvrage en cours d’élaboration.
+        </p>
+
+      </article>
+    </div>
+
+    {/* Conclusion */}
+    <div className="mt-16 rounded-3xl bg-gray-50 p-8 md:p-10">
+
+      <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-600">
+        Une bibliothèque intellectuelle en construction
+      </p>
+
+      <p className="mt-4 max-w-4xl text-lg leading-8 text-gray-700 md:text-xl">
+        À travers ses publications, ses recherches et ses projets
+        d’écriture, Académiques en Action souhaite contribuer à la
+        circulation des savoirs et au développement d’une pensée
+        scientifique autonome.
+      </p>
+
+    </div>
+
+  </div>
+  {/* Publications */}
+<section id="publications" className="bg-white px-6 py-24">
+  <div className="mx-auto max-w-6xl">
+
+    {/* En-tête */}
+    <div className="max-w-4xl">
+      <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-600">
+        Publications
+      </p>
+
+      <h2 className="mt-3 text-[22px] font-bold text-blue-950 md:text-3xl">
+        Une production scientifique et littéraire au service du savoir.
+      </h2>
+
+      <div className="mt-5 h-1 w-20 bg-yellow-400"></div>
+
+      <p className="mt-6 text-lg leading-8 text-gray-700 md:text-xl">
+        Les travaux du fondateur d’Académiques en Action s’inscrivent dans
+        une démarche interdisciplinaire associant théologie, archéologie,
+        histoire, sciences de l’éducation et réflexion sur les sociétés.
+      </p>
+    </div>
+
+    {/* Ouvrages scientifiques */}
+    <div className="mt-14">
+      <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-600">
+        Ouvrages scientifiques
+      </p>
+
+      <div className="mt-8 grid gap-8 md:grid-cols-2">
+
+        {/* 2011 */}
+        <article className="rounded-3xl border border-gray-200 bg-gray-50 p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+          <span className="rounded-full bg-blue-950 px-4 py-1.5 text-sm font-bold text-yellow-400">
+            2011
+          </span>
+
+          <h3 className="mt-6 text-xl font-bold leading-8 text-blue-950">
+            <em>Étude comparative entre les Lamassu et les chérubins bibliques</em>
+          </h3>
+
+          <p className="mt-4 leading-7 text-gray-600">
+            L’Harmattan, Paris, 176 pages.
+          </p>
+        </article>
+
+        {/* 2018 */}
+        <article className="rounded-3xl border border-gray-200 bg-gray-50 p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+          <span className="rounded-full bg-blue-950 px-4 py-1.5 text-sm font-bold text-yellow-400">
+            2018
+          </span>
+
+          <h3 className="mt-6 text-xl font-bold leading-8 text-blue-950">
+            <em>
+              The God of Mount Carmel: Contending Views about the Deity
+              Associated with the Biblical Mount Carmel
+            </em>
+          </h3>
+
+          <p className="mt-4 leading-7 text-gray-600">
+            Lambert Academic Publishing, Saarbrücken, 300 pages.
+          </p>
+        </article>
+
+      </div>
+    </div>
+
+    {/* Chapitre collectif */}
+    <div className="mt-16">
+      <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-600">
+        Contribution scientifique
+      </p>
+
+      <article className="mt-8 rounded-3xl border border-gray-200 bg-white p-8 shadow-sm md:p-10">
+
+        <span className="rounded-full bg-blue-950 px-4 py-1.5 text-sm font-bold text-yellow-400">
+          2019
+        </span>
+
+        <h3 className="mt-6 text-xl font-bold leading-8 text-blue-950 md:text-2xl">
+          <em>« Lamassu in Ancient Near Eastern Beliefs »</em>
+        </h3>
+
+        <p className="mt-4 text-lg leading-8 text-gray-600">
+          In <em>Belief Phenomenon and Administrative Conception in the
+          Ancient Age of Mesopotamia</em>, Prof. Dr. L. Gürkan GÖKÇEK (dir.),
+          2019.
+        </p>
+
+      </article>
+    </div>
+
+    {/* Roman */}
+    <div className="mt-16">
+      <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-600">
+        Œuvre littéraire
+      </p>
+
+      <article className="mt-8 rounded-3xl bg-blue-950 p-8 text-white shadow-lg md:p-10">
+
+        <span className="rounded-full bg-yellow-400 px-4 py-1.5 text-sm font-bold text-blue-950">
+          2025
+        </span>
+
+        <h3 className="mt-6 text-2xl font-bold leading-9">
+          <em>De la Rose à la Ronce</em>
+        </h3>
+
+        <p className="mt-4 text-lg leading-8 text-blue-100">
+          Samson N’Taadjèl KAGMATCHÉ, Guérin Scholar’s Press, Montréal,
+          2025, 132 pages.
+        </p>
+
+      </article>
+    </div>
+
+    {/* Ouvrage en cours */}
+    <div className="mt-16">
+      <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-600">
+        Ouvrage en cours
+      </p>
+
+      <article className="mt-8 rounded-3xl border-l-4 border-yellow-400 bg-gray-50 p-8 md:p-10">
+
+        <span className="inline-flex rounded-full bg-blue-950 px-4 py-1.5 text-sm font-bold text-yellow-400">
+          En cours d’élaboration
+        </span>
+
+        <h3 className="mt-6 text-xl font-bold leading-8 text-blue-950 md:text-2xl">
+          <em>
+            Émancipation des femmes au XXIe siècle : combat du siècle ou
+            combat des sexes ?
+          </em>
+        </h3>
+
+        <p className="mt-4 text-lg leading-8 text-gray-600">
+          Ouvrage en cours d’élaboration.
+        </p>
+
+      </article>
+    </div>
+
+    {/* Conclusion */}
+    <div className="mt-16 rounded-3xl bg-gray-50 p-8 md:p-10">
+
+      <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-600">
+        Une bibliothèque intellectuelle en construction
+      </p>
+
+      <p className="mt-4 max-w-4xl text-lg leading-8 text-gray-700 md:text-xl">
+        À travers ses publications, ses recherches et ses projets d’écriture,
+        Académiques en Action souhaite contribuer à la circulation des savoirs
+        et au développement d’une pensée scientifique autonome.
+      </p>
+
+    </div>
+
+  </div>
+</section>
+</section>
   <a
     href="#contact"
     className="rounded-full bg-blue-950 px-5 py-2.5 text-white transition hover:bg-blue-800"
@@ -85,7 +431,6 @@ export default function Home() {
 
 </nav>
    
-
   </div>
 </header>   
 
