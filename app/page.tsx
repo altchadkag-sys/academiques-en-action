@@ -92,9 +92,7 @@ export default function Home() {
 
 </nav>
 
-</nav>
-   
-  </div>
+  </div> 
 </header>   
 
       {/* Section principale */}
@@ -1172,7 +1170,7 @@ export default function Home() {
         </p>
       </div>
 
-    </div>
+    </div> 
 
     <div className="mt-8 border-t border-blue-800 pt-6 text-center">
       <p className="text-sm text-blue-300">
