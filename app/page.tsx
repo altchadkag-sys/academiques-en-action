@@ -5,7 +5,7 @@ export default function Home() {
 
       {/* =========================
           EN-TÊTE
-      ========================== */}
+      ========================== */} 
       <header className="border-b border-gray-300 bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
 
@@ -1059,7 +1059,58 @@ export default function Home() {
     </div>
 
   </div>
+{/* Genèse du concept */}
+<div className="mt-10 rounded-3xl border-l-4 border-yellow-400 bg-blue-950 p-8 text-white md:p-10">
 
+  <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-400">
+    Genèse du concept
+  </p>
+
+  <h4 className="mt-3 text-2xl font-bold">
+    Une réflexion initiée en 2008
+  </h4>
+
+  <div className="mt-5 h-1 w-16 bg-yellow-400"></div>
+
+  <p className="mt-6 max-w-4xl text-lg leading-8 text-blue-100">
+    Le concept de <em>Titromanie</em> est issu d’une réflexion initiée
+    par Samson N’Taadjèl Kagmatché dès 2008. Il a progressivement été
+    conceptualisé, formulé et développé avant de faire l’objet d’une
+    première occurrence littéraire connue et d’une diffusion publique.
+  </p>
+
+  <div className="mt-8 grid gap-4 md:grid-cols-3">
+
+    <div className="rounded-2xl bg-blue-900 p-5">
+      <p className="text-2xl font-bold text-yellow-400">
+        2008
+      </p>
+      <p className="mt-2 text-sm leading-6 text-blue-100">
+        Début de la réflexion sur le phénomène.
+      </p>
+    </div>
+
+    <div className="rounded-2xl bg-blue-900 p-5">
+      <p className="text-2xl font-bold text-yellow-400">
+        2025
+      </p>
+      <p className="mt-2 text-sm leading-6 text-blue-100">
+        Première occurrence littéraire connue.
+      </p>
+    </div>
+
+    <div className="rounded-2xl bg-blue-900 p-5">
+      <p className="text-2xl font-bold text-yellow-400">
+        Aujourd’hui
+      </p>
+      <p className="mt-2 text-sm leading-6 text-blue-100">
+        Concept en cours de diffusion et de développement.
+      </p>
+    </div>
+
+  </div>
+
+</div>
 
   {/* Forme anglaise */}
   <div className="mt-10 rounded-3xl border-l-4 border-yellow-400 bg-gray-50 p-8 md:p-10">
