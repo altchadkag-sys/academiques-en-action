@@ -10,7 +10,7 @@ export default function Home() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
 
           {/* Logo et identité */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4"> 
             <img
               src="/logo-academiques.png"
               alt="Logo Académiques en Action"
@@ -726,7 +726,492 @@ export default function Home() {
               </article>
 
             </div>
+{/* =========================
+    NÉOLOGISME — TITROMANIE
+========================== */}
+<div id="titromanie" className="mt-20 scroll-mt-24">
 
+  <div className="max-w-4xl">
+    <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-600">
+      Le Néologisme
+    </p>
+
+    <h3 className="mt-3 text-[22px] font-bold text-blue-950 md:text-3xl">
+      Titromanie / Titromane
+    </h3>
+
+    <p className="mt-2 text-lg font-medium italic text-gray-500">
+      Notice lexicographique d’un néologisme contemporain
+    </p>
+
+    <div className="mt-5 h-1 w-20 bg-yellow-400"></div>
+  </div>
+
+
+  {/* Entrée principale */}
+  <div className="mt-10 rounded-3xl border-2 border-yellow-400 bg-gray-50 p-8 shadow-sm md:p-10">
+
+    <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
+
+      <div>
+        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-600">
+          Entrée principale
+        </p>
+
+        <h4 className="mt-2 text-3xl font-bold text-blue-950">
+          Titromanie
+        </h4>
+
+        <p className="mt-2 text-lg italic text-gray-500">
+          Nom féminin
+        </p>
+      </div>
+
+      <div className="rounded-2xl bg-blue-950 px-6 py-4 text-center text-white">
+        <p className="text-xs font-semibold uppercase tracking-widest text-yellow-400">
+          Prononciation
+        </p>
+
+        <p className="mt-1 text-lg font-medium">
+          /ti.tʁɔ.ma.ni/
+        </p>
+      </div>
+
+    </div>
+
+
+    <div className="mt-8 grid gap-6 md:grid-cols-2">
+
+      <div className="rounded-2xl bg-white p-6">
+        <p className="text-sm font-semibold uppercase tracking-widest text-yellow-600">
+          Formation morphologique
+        </p>
+
+        <p className="mt-3 text-lg font-semibold text-blue-950">
+          <span className="font-bold">Titre</span> + suffixe{" "}
+          <span className="font-bold">-manie</span>
+        </p>
+      </div>
+
+
+      <div className="rounded-2xl bg-white p-6">
+        <p className="text-sm font-semibold uppercase tracking-widest text-yellow-600">
+          Étymologie proposée
+        </p>
+
+        <p className="mt-3 leading-7 text-gray-600">
+          Le terme <em>Titromanie</em> est un néologisme construit à partir
+          du mot <em>titre</em>, qui désigne une appellation, une fonction,
+          un grade, une distinction ou une qualification reconnue socialement,
+          et du suffixe <strong>-manie</strong>, exprimant une tendance
+          excessive, une passion ou une préoccupation marquée.
+        </p>
+      </div>
+
+    </div>
+
+
+    {/* Définition */}
+    <div className="mt-8 rounded-2xl border-l-4 border-yellow-400 bg-white p-6 md:p-8">
+
+      <p className="text-sm font-semibold uppercase tracking-widest text-yellow-600">
+        Définition
+      </p>
+
+      <p className="mt-3 text-xl font-medium leading-8 text-blue-950">
+        <strong>Titromanie (n.f.) :</strong>{" "}
+        Tendance excessive à rechercher, accumuler, afficher ou valoriser
+        des titres, grades, fonctions, diplômes ou appellations comme
+        principaux marqueurs de reconnaissance sociale, intellectuelle
+        ou professionnelle.
+      </p>
+
+    </div>
+
+  </div>
+
+
+  {/* Terme dérivé */}
+  <div className="mt-10 rounded-3xl border border-gray-200 bg-white p-8 shadow-sm md:p-10">
+
+    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-600">
+      Terme dérivé
+    </p>
+
+    <h4 className="mt-2 text-2xl font-bold text-blue-950">
+      Titromane
+    </h4>
+
+    <p className="mt-2 text-gray-500">
+      Nom masculin / féminin et adjectif
+    </p>
+
+    <div className="mt-6 rounded-2xl bg-gray-50 p-6">
+
+      <p className="leading-8 text-gray-700">
+        Personne qui manifeste une tendance excessive à accorder une importance
+        supérieure aux titres, grades, appellations ou distinctions, parfois
+        au détriment du savoir, de la compétence ou de la contribution réelle.
+      </p>
+
+    </div>
+
+
+    {/* Exemples */}
+    <div className="mt-8">
+
+      <p className="text-sm font-semibold uppercase tracking-widest text-yellow-600">
+        Exemples d’emploi
+      </p>
+
+      <div className="mt-4 space-y-4">
+
+        <div className="border-l-4 border-blue-950 pl-5">
+          <p className="leading-7 text-gray-700 italic">
+            « La titromanie peut conduire à confondre la possession d’un titre
+            avec la maîtrise réelle d’un savoir. »
+          </p>
+        </div>
+
+        <div className="border-l-4 border-blue-950 pl-5">
+          <p className="leading-7 text-gray-700 italic">
+            « Un titromane valorise davantage l’apparence du statut que la
+            démonstration de la compétence. »
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  {/* Portée conceptuelle */}
+  <div className="mt-10 rounded-3xl bg-blue-950 p-8 text-white md:p-10">
+
+    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-400">
+      Portée du concept
+    </p>
+
+    <h4 className="mt-3 text-2xl font-bold">
+      Du titre au savoir : une distinction fondamentale
+    </h4>
+
+    <div className="mt-5 h-1 w-16 bg-yellow-400"></div>
+
+    <p className="mt-6 text-lg leading-8 text-blue-100">
+      Le concept de <em>Titromanie</em> invite à distinguer le titre et le
+      savoir, le statut institutionnel et la compétence réelle, ainsi que
+      la reconnaissance sociale et la valeur intellectuelle.
+    </p>
+
+    <div className="mt-8 grid gap-4 md:grid-cols-3">
+
+      <div className="rounded-2xl bg-blue-900 p-5">
+        <p className="font-bold text-yellow-400">
+          Titre
+        </p>
+        <p className="mt-2 text-sm leading-6 text-blue-100">
+          ≠ savoir
+        </p>
+      </div>
+
+      <div className="rounded-2xl bg-blue-900 p-5">
+        <p className="font-bold text-yellow-400">
+          Statut
+        </p>
+        <p className="mt-2 text-sm leading-6 text-blue-100">
+          ≠ compétence réelle
+        </p>
+      </div>
+
+      <div className="rounded-2xl bg-blue-900 p-5">
+        <p className="font-bold text-yellow-400">
+          Reconnaissance
+        </p>
+        <p className="mt-2 text-sm leading-6 text-blue-100">
+          ≠ valeur intellectuelle
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  {/* Domaines d’emploi */}
+  <div className="mt-10 rounded-3xl border border-gray-200 bg-gray-50 p-8 md:p-10">
+
+    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-600">
+      Domaines d’emploi
+    </p>
+
+    <h4 className="mt-3 text-2xl font-bold text-blue-950">
+      Un concept à la croisée de plusieurs disciplines
+    </h4>
+
+    <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+
+      {[
+        "Sociologie",
+        "Sciences de l’éducation",
+        "Philosophie sociale",
+        "Anthropologie culturelle",
+        "Études sur le prestige et la reconnaissance sociale",
+        "Culture académique",
+      ].map((domain) => (
+        <div
+          key={domain}
+          className="rounded-2xl bg-white p-5 font-semibold text-blue-950 shadow-sm"
+        >
+          {domain}
+        </div>
+      ))}
+
+    </div>
+
+  </div>
+
+
+  {/* Origine et statut */}
+  <div className="mt-10 grid gap-8 lg:grid-cols-2">
+
+    <div className="rounded-3xl border border-gray-200 bg-white p-8 shadow-sm md:p-10">
+
+      <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-600">
+        Origine du néologisme
+      </p>
+
+      <h4 className="mt-3 text-2xl font-bold text-blue-950">
+        Créateur du concept
+      </h4>
+
+      <div className="mt-6 space-y-4 text-gray-700">
+
+        <p>
+          <strong>Samson N’Taadjèl Kagmatché</strong>
+        </p>
+
+        <p>
+          <strong>Première occurrence littéraire connue :</strong><br />
+          <em>From the Rose to the Bramble</em>
+        </p>
+
+        <p>
+          <strong>Année :</strong> 2025
+        </p>
+
+        <p>
+          <strong>ISBN :</strong> 9781989771136
+        </p>
+
+        <p>
+          <strong>Langue de publication :</strong> anglais
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div className="rounded-3xl border border-gray-200 bg-white p-8 shadow-sm md:p-10">
+
+      <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-600">
+        Statut lexical
+      </p>
+
+      <h4 className="mt-3 text-2xl font-bold text-blue-950">
+        Un néologisme contemporain
+      </h4>
+
+      <div className="mt-6 space-y-4">
+
+        <div>
+          <p className="text-sm font-semibold text-yellow-600">
+            Type
+          </p>
+          <p className="mt-1 font-medium text-gray-700">
+            Néologisme contemporain
+          </p>
+        </div>
+
+        <div>
+          <p className="text-sm font-semibold text-yellow-600">
+            Statut
+          </p>
+          <p className="mt-1 font-medium text-gray-700">
+            Terme proposé en cours de diffusion
+          </p>
+        </div>
+
+        <div>
+          <p className="text-sm font-semibold text-yellow-600">
+            Usages
+          </p>
+          <p className="mt-1 font-medium text-gray-700">
+            Littéraire • Conceptuel • Analytique • Sociologique
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  {/* Forme anglaise */}
+  <div className="mt-10 rounded-3xl border-l-4 border-yellow-400 bg-gray-50 p-8 md:p-10">
+
+    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-600">
+      Forme anglaise associée
+    </p>
+
+    <h4 className="mt-3 text-2xl font-bold text-blue-950">
+      Titlomania
+    </h4>
+
+    <div className="mt-5 grid gap-6 md:grid-cols-2">
+
+      <div>
+        <p className="text-sm font-semibold text-yellow-600">
+          Part of speech
+        </p>
+        <p className="mt-1 text-gray-700">
+          Noun
+        </p>
+      </div>
+
+      <div>
+        <p className="text-sm font-semibold text-yellow-600">
+          Formation
+        </p>
+        <p className="mt-1 text-gray-700">
+          Title + mania
+        </p>
+      </div>
+
+    </div>
+
+    <p className="mt-6 leading-8 text-gray-700">
+      <strong>Definition :</strong> An excessive tendency to seek, display,
+      accumulate, or rely on titles, ranks, degrees, or social labels as
+      primary indicators of status and recognition.
+    </p>
+
+    <p className="mt-5 text-gray-700">
+      <strong>Derived form :</strong>{" "}
+      <span className="font-semibold text-blue-950">Titlomaniac</span>
+    </p>
+
+  </div>
+
+
+  {/* Diffusion publique */}
+  <div className="mt-10 rounded-3xl bg-gray-50 p-8 md:p-10">
+
+    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-600">
+      Diffusion publique du concept
+    </p>
+
+    <h4 className="mt-3 text-2xl font-bold text-blue-950">
+      Chronique du Savoir
+    </h4>
+
+    <p className="mt-5 max-w-4xl leading-8 text-gray-700">
+      Les néologismes <em>Titromanie</em> et <em>Titromane</em> ont également
+      été présentés dans une chronique publique d’Académiques en Action —
+      Laboratoire R & RA (Réflexion & Référence Africaine).
+    </p>
+
+    <div className="mt-6 grid gap-4 md:grid-cols-3">
+
+      <div className="rounded-2xl bg-white p-5 font-semibold text-blue-950 shadow-sm">
+        YouTube — Académiques en Action
+      </div>
+
+      <div className="rounded-2xl bg-white p-5 font-semibold text-blue-950 shadow-sm">
+        Facebook — Académiques en Action
+      </div>
+
+      <div className="rounded-2xl bg-white p-5 font-semibold text-blue-950 shadow-sm">
+        Plateformes numériques associées
+      </div>
+
+    </div>
+
+    <div className="mt-8 rounded-2xl border-l-4 border-yellow-400 bg-white p-6">
+
+      <p className="font-semibold text-blue-950">
+        Objet de la chronique
+      </p>
+
+      <p className="mt-2 leading-7 text-gray-600">
+        Présentation et analyse du concept de Titromanie comme phénomène lié
+        à la culture du titre, du prestige et de la reconnaissance sociale.
+      </p>
+
+      <p className="mt-4 text-sm italic text-gray-500">
+        Les liens et dates de publication pourront être ajoutés ultérieurement.
+      </p>
+
+    </div>
+
+  </div>
+
+
+  {/* Sources */}
+  <div className="mt-10 rounded-3xl border border-gray-200 bg-white p-8 shadow-sm md:p-10">
+
+    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-600">
+      Sources attestant l’existence du terme
+    </p>
+
+    <ol className="mt-6 list-decimal space-y-4 pl-6 leading-7 text-gray-700">
+
+      <li>
+        Kagmatché, Samson N’Taadjèl.{" "}
+        <em>From the Rose to the Bramble</em>. 2025.
+        ISBN : 9781989771136.
+      </li>
+
+      <li>
+        <em>Chronique du Savoir</em> – Académiques en Action.
+        « Titromanie et Titromane ».
+      </li>
+
+      <li>
+        Publications numériques de l’auteur.
+      </li>
+
+      <li>
+        Dépôt légal prévu auprès de Bibliothèque et Archives Canada.
+      </li>
+
+    </ol>
+
+  </div>
+
+
+  {/* Signature conceptuelle */}
+  <div className="mt-10 rounded-3xl border-2 border-yellow-400 bg-blue-950 p-8 text-center text-white md:p-10">
+
+    <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-400">
+      Académiques en Action — Laboratoire R & RA
+    </p>
+
+    <p className="mt-4 text-xl font-bold md:text-2xl">
+      Titromanie / Titromane
+    </p>
+
+    <p className="mt-3 text-blue-100">
+      Concept créé par Samson N’Taadjèl Kagmatché
+    </p>
+
+  </div>
+
+</div>
 
             {/* Vision commune */}
             <div className="mt-14 rounded-3xl bg-blue-950 p-8 text-white md:p-10">
