@@ -362,63 +362,68 @@ export default function Home() {
       </p>
     </div>
 
-    {/* Présentation */}
-    <div className="mt-12 grid gap-12 lg:grid-cols-[1.5fr_1fr]">
+  {/* Présentation du fondateur */}
+<div className="mt-12 grid gap-12 lg:grid-cols-[1fr_1.5fr] lg:items-start">
 
-      <div className="space-y-4 text-lg leading-8 text-gray-700">
+  {/* Photo du fondateur */}
+  <div className="overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-lg">
+    <img
+      src="/fondateur.jpg"
+      alt="Dr. Samson N'Taadjèl KAGMATCHÉ, fondateur d'Académiques en Action"
+      className="h-auto w-full object-cover"
+    />
 
-        <p>
-          Docteur en théologie, spécialisé en <strong>Ancien Testament</strong>,
-          avec une formation en <strong>archéologie du Proche-Orient ancien</strong>,
-          le fondateur développe une approche interdisciplinaire qui met en
-          dialogue les textes anciens, l’archéologie, l’histoire et la
-          réflexion scientifique.
-        </p>
+    <div className="border-t-4 border-yellow-400 bg-blue-950 p-6 text-white">
+      <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-400">
+        Fondateur et Directeur
+      </p>
 
-        <p>
-          Sa recherche doctorale a articulé
-          <strong> l’étude de l’Ancien Testament et l’archéologie</strong>,
-          dans une démarche visant à mieux comprendre les contextes historiques,
-          culturels et religieux du monde biblique.
-        </p>
+      <h3 className="mt-2 text-xl font-bold">
+        Dr. Samson N'Taadjèl KAGMATCHÉ
+      </h3>
 
-        <p>
-          Cette formation interdisciplinaire constitue l’un des fondements
-          intellectuels d’Académiques en Action : croiser les disciplines,
-          questionner les savoirs établis et contribuer à une production
-          scientifique rigoureuse, particulièrement attentive aux réalités
-          africaines.
-        </p>
-
-        <p>
-          À travers le Laboratoire R & RA, le fondateur souhaite créer un espace
-          où universitaires, chercheurs, enseignants et étudiants peuvent
-          réfléchir ensemble, produire du savoir et transformer leurs idées
-          en contributions scientifiques utiles à la société.
-        </p>
-
-      </div>
-
-      {/* Carte institutionnelle */}
-      <aside className="h-fit rounded-3xl bg-blue-950 p-8 text-white shadow-lg">
-        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-400">
-          Profil académique
-        </p>
-
-        <h3 className="mt-4 text-[22px] font-bold">
-          Une approche interdisciplinaire
-        </h3>
-
-        <div className="mt-5 h-1 w-12 bg-yellow-400"></div>
-
-        <p className="mt-5 leading-7 text-blue-100">
-          Une formation et une démarche de recherche fondées sur le dialogue
-          entre la théologie, l’archéologie, l’histoire, les sciences de
-          l’éducation et l’étude des textes anciens.
-        </p>
-      </aside>
-
+      <p className="mt-2 text-sm leading-6 text-blue-100">
+        Académiques en Action — Laboratoire R & RA
+      </p>
     </div>
+  </div>
+
+  {/* Présentation académique */}
+  <div className="space-y-5 text-lg leading-8 text-gray-700">
+
+    <p>
+      Docteur en théologie, spécialisé en <strong>Ancien Testament</strong>,
+      avec une formation en <strong>archéologie du Proche-Orient ancien</strong>,
+      le fondateur développe une approche interdisciplinaire qui met en
+      dialogue les textes anciens, l’archéologie, l’histoire et la
+      réflexion scientifique.
+    </p>
+
+    <p>
+      Sa recherche doctorale a articulé
+      <strong> l’étude de l’Ancien Testament et l’archéologie</strong>,
+      dans une démarche visant à mieux comprendre les contextes historiques,
+      culturels et religieux du monde biblique.
+    </p>
+
+    <p>
+      Cette formation interdisciplinaire constitue l’un des fondements
+      intellectuels d’Académiques en Action : croiser les disciplines,
+      questionner les savoirs établis et contribuer à une production
+      scientifique rigoureuse, particulièrement attentive aux réalités
+      africaines.
+    </p>
+
+    <p>
+      À travers le Laboratoire R & RA, le fondateur souhaite créer un espace
+      où universitaires, chercheurs, enseignants et étudiants peuvent
+      réfléchir ensemble, produire du savoir et transformer leurs idées
+      en contributions scientifiques utiles à la société.
+    </p>
+
+  </div>
+
+</div>
 
     {/* Domaines de compétence */}
     <div className="mt-16">
