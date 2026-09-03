@@ -459,7 +459,7 @@ export default function Home() {
 
             <div className="overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-lg">
               <img
-                src="/Fondateur.png"
+                src="/Fondateur 1.png"
                 alt="Dr. Samson N'Taadjèl KAGMATCHÉ, fondateur d'Académiques en Action"
                 className="h-auto w-full object-cover"
               />
