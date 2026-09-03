@@ -66,7 +66,7 @@ export default function Home() {
         id="home"
         className="relative overflow-hidden bg-blue-950 text-white"
       >
-        <div className="absolute inset-0 opacity-20">
+        <div className="absolute inset-0 opacity-100">
           <img
             src="/hero-bibliotheque.png"
             alt=""
