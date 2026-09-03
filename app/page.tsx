@@ -2,11 +2,105 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-900">
+{/* =========================
+    EN-TÊTE
+========================== */}
+<header className="sticky top-0 z-50 border-b border-gray-200 bg-white/95 shadow-sm backdrop-blur">
+  <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
 
-      {/* =========================
-          EN-TÊTE
-      ========================== */} 
-      <header className="border-b border-gray-300 bg-white">
+    {/* Logo et identité */}
+    <a
+      href="#accueil"
+      className="flex items-center gap-4"
+    >
+      <img
+        src="/logo-academiques.png"
+        alt="Logo Académiques en Action"
+        className="h-16 w-auto object-contain md:h-20"
+      />
+
+      <div className="hidden sm:block">
+        <h1 className="text-xl font-bold tracking-tight text-blue-950 md:text-[22px]">
+          Académiques en Action
+        </h1>
+
+        <p className="mt-1 text-xs font-medium tracking-wide text-gray-500 md:text-sm">
+          Laboratoire R & RA – Réflexion & Référence Africaine
+        </p>
+      </div>
+    </a>
+
+    {/* Menu principal */}
+    <nav className="hidden items-center gap-5 text-sm font-semibold text-blue-950 lg:flex">
+
+      <a
+        href="#accueil"
+        className="border-b-2 border-transparent py-2 transition hover:border-yellow-500 hover:text-yellow-600"
+      >
+        Accueil
+      </a>
+
+      <a
+        href="#mission"
+        className="border-b-2 border-transparent py-2 transition hover:border-yellow-500 hover:text-yellow-600"
+      >
+        Notre mission
+      </a>
+
+      <a
+        href="#presentation"
+        className="border-b-2 border-transparent py-2 transition hover:border-yellow-500 hover:text-yellow-600"
+      >
+        Présentation
+      </a>
+
+      <a
+        href="#fondateur"
+        className="border-b-2 border-transparent py-2 transition hover:border-yellow-500 hover:text-yellow-600"
+      >
+        Fondateur
+      </a>
+
+      <a
+        href="#recherche"
+        className="border-b-2 border-transparent py-2 transition hover:border-yellow-500 hover:text-yellow-600"
+      >
+        Recherche
+      </a>
+
+      <a
+        href="#formation"
+        className="border-b-2 border-transparent py-2 transition hover:border-yellow-500 hover:text-yellow-600"
+      >
+        Formation
+      </a>
+
+      <a
+        href="#publications"
+        className="border-b-2 border-transparent py-2 transition hover:border-yellow-500 hover:text-yellow-600"
+      >
+        Publications
+      </a>
+
+      <a
+        href="#contact"
+        className="rounded-full bg-blue-950 px-5 py-2.5 text-white shadow-sm transition hover:bg-blue-800 hover:shadow-md"
+      >
+        Contact
+      </a>
+
+    </nav>
+
+    {/* Identité compacte sur mobile */}
+    <div className="sm:hidden">
+      <span className="text-sm font-bold text-blue-950">
+        Académiques
+      </span>
+    </div>
+
+  </div>
+</header>
+     
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
 
           {/* Logo et identité */}
