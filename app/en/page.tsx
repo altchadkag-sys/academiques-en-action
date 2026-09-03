@@ -71,7 +71,7 @@ export default function Home() {
   alt="Open book in front of a university library"
   className="absolute inset-0 h-full w-full object-cover"
 />
-
+<div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/25 to-transparent" />
         <div className="relative mx-auto max-w-7xl px-6 py-28 lg:py-36">
           <div className="max-w-4xl">
 
