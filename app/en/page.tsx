@@ -68,7 +68,7 @@ export default function Home() {
       >
         <div className="absolute inset-0 opacity-20">
           <img
-            src="/hero.jpg"
+            src="/hero-bibliotheque.png"
             alt=""
             className="h-full w-full object-cover"
           />
@@ -260,7 +260,7 @@ export default function Home() {
 
             <div className="overflow-hidden rounded-2xl bg-white shadow-lg">
               <img
-                src="/Fondateur.png"
+                src="/Fondateur 1.png"
                 alt="Dr. Samson N'Taadjèl KAGMATCHÉ, Founder and Director"
                 className="h-auto w-full object-cover"
               />
