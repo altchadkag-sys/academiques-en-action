@@ -62,17 +62,15 @@ export default function Home() {
       {/* =========================
           HERO
       ========================= */}
-      <section
-        id="home"
-        className="relative overflow-hidden bg-blue-950 text-white"
-      >
-        <div className="absolute inset-0 opacity-100">
-          <img
-            src="/hero-bibliotheque.png"
-            alt=""
-            className="h-full w-full object-cover"
-          />
-        </div>
+    <section
+  id="home"
+  className="relative min-h-[620px] overflow-hidden text-white"
+>
+       <img
+  src="/hero-bibliotheque.png"
+  alt="Open book in front of a university library"
+  className="absolute inset-0 h-full w-full object-cover"
+/>
 
         <div className="relative mx-auto max-w-7xl px-6 py-28 lg:py-36">
           <div className="max-w-4xl">
