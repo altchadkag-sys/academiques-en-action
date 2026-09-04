@@ -378,20 +378,20 @@ export default function Home() {
                 alt="Dr. Samson N'Taadjèl KAGMATCHÉ, fondateur d'Académiques en Action"
                 className="h-auto w-full object-cover"
               />
+<div className="border-t-4 border-yellow-400 bg-blue-950 p-6 text-white">
+  <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-400">
+    Founder and Director
+  </p>
 
-              <div className="border-t-4 border-yellow-400 bg-blue-950 p-6 text-white">
-                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-400">
-                  Fondateur et Directeur
-                </p>
+  <h3 className="mt-2 text-xl font-bold">
+    Dr. Samson N'Taadjèl KAGMATCHÉ
+  </h3>
 
-                <h3 className="mt-2 text-xl font-bold">
-                  Dr. Samson N'Taadjèl KAGMATCHÉ
-                </h3>
-
-                <p className="mt-2 text-sm leading-6 text-blue-100">
-                  Académiques en Action — Laboratoire R & RA
-                </p>
-              </div>
+  <p className="mt-2 text-sm leading-6 text-blue-100">
+    Académiques en Action — Laboratory R & RA
+  </p>
+</div>
+             
             </div>
 
             <div className="space-y-5 text-lg leading-8 text-gray-700">
