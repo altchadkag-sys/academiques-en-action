@@ -380,7 +380,7 @@ export default function Home() {
               />
 <div className="border-t-4 border-yellow-400 bg-blue-950 p-6 text-white">
   <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-400">
-    Founder and Director
+    Fondateur et Directeur
   </p>
 
   <h3 className="mt-2 text-xl font-bold">
@@ -388,7 +388,7 @@ export default function Home() {
   </h3>
 
   <p className="mt-2 text-sm leading-6 text-blue-100">
-    Académiques en Action — Laboratory R & RA
+    Académiques en Action — Laboratoire R & RA
   </p>
 </div>
              
