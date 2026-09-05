@@ -739,73 +739,34 @@ export default function Home() {
                   <p className="text-sm font-semibold uppercase tracking-wider text-yellow-400">
                     Email
                   </p>
-                  <p className="mt-1 text-blue-100">
-                    Contact us through the Académiques en Action platform.
-                  </p>
-                </div>
+                             </div>
 
-              </div>
-            </div>
+            {/* Social Media */}
+            <div className="mt-10 flex flex-wrap justify-center gap-6 text-lg font-semibold">
 
+              <a
+                href="https://www.facebook.com/profile.php?id=61582416335658"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition hover:text-yellow-300"
+              >
+                👍 Facebook — Académiques en Action
+              </a>
 
-            <div className="rounded-2xl bg-white p-8 text-gray-900 shadow-xl">
+              <a
+                href="https://www.youtube.com/@Acad%C3%A9miquesenAction"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition hover:text-yellow-300"
+              >
+                ▶️ YouTube — Académiques en Action
+              </a>
 
-              <h3 className="text-2xl font-bold text-blue-950">
-                Send a Message
-              </h3>
-
-              <div className="mt-6 space-y-5">
-
-                <div>
-                  <label className="mb-2 block text-sm font-semibold">
-                    Name
-                  </label>
-
-                  <input
-                    type="text"
-                    placeholder="Your name"
-                    className="w-full rounded-md border border-gray-300 px-4 py-3 outline-none transition focus:border-blue-900"
-                  />
-                </div>
-
-                <div>
-                  <label className="mb-2 block text-sm font-semibold">
-                    Email
-                  </label>
-
-                  <input
-                    type="email"
-                    placeholder="Your email"
-                    className="w-full rounded-md border border-gray-300 px-4 py-3 outline-none transition focus:border-blue-900"
-                  />
-                </div>
-
-                <div>
-                  <label className="mb-2 block text-sm font-semibold">
-                    Message
-                  </label>
-
-                  <textarea
-                    rows={5}
-                    placeholder="Your message"
-                    className="w-full rounded-md border border-gray-300 px-4 py-3 outline-none transition focus:border-blue-900"
-                  />
-                </div>
-
-                <button
-                  type="button"
-                  className="w-full rounded-md bg-blue-950 px-6 py-3 font-semibold text-white transition hover:bg-blue-900"
-                >
-                  Send Message
-                </button>
-
-              </div>
             </div>
 
           </div>
         </div>
       </section>
-
 
       {/* =========================
           FOOTER
