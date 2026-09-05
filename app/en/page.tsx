@@ -75,17 +75,27 @@ export default function Home() {
         <div className="relative mx-auto max-w-7xl px-6 py-28 lg:py-36">
           <div className="max-w-4xl">
 
-            <p className="mb-5 text-sm font-semibold uppercase tracking-[0.25em] text-yellow-400">
-              Académiques en Action
-            </p>
+<p className="mb-4 text-lg font-semibold uppercase tracking-[0.2em] text-yellow-400">
+  Laboratory R & RA — Reflection & African Reference
+</p>
 
-            <h1 className="text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
-              Transforming Ideas into Scientific Contribution
-            </h1>
+<h1 className="text-5xl font-bold leading-tight sm:text-6xl lg:text-7xl">
+  Académiques en Action
+</h1>
 
-            <p className="mt-6 max-w-3xl text-lg leading-8 text-blue-100 sm:text-xl">
-              Laboratory R & RA — Reflection & African Reference
-            </p>
+<p className="mt-5 text-lg font-semibold text-yellow-400 sm:text-xl">
+  Research • Training • Reflection
+</p>
+
+<p className="mt-4 text-xl font-semibold leading-8 text-white sm:text-2xl">
+  Transforming Ideas into Scientific Contribution.
+</p>
+
+<p className="mt-6 max-w-3xl text-lg leading-8 text-blue-100 sm:text-xl">
+  A Pan-African research and knowledge platform dedicated to intellectual
+  reflection, scientific production, education, research and the advancement
+  of African knowledge.
+</p>
 
             <p className="mt-6 max-w-3xl text-base leading-7 text-blue-100">
               A Pan-African research and knowledge platform dedicated to
