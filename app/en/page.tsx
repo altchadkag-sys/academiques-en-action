@@ -97,12 +97,6 @@ export default function Home() {
   of African knowledge.
 </p>
 
-            <p className="mt-6 max-w-3xl text-base leading-7 text-blue-100">
-              A Pan-African research and knowledge platform dedicated to
-              intellectual reflection, scientific production, education,
-              research and the advancement of African knowledge.
-            </p>
-
             <div className="mt-10 flex flex-wrap gap-4">
               <a
                 href="#research"
