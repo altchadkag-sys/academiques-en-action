@@ -691,82 +691,105 @@ export default function Home() {
         </div>
       </section>
 
-
       {/* =========================
-          CONTACT
-      ========================= */}
-      <section id="contact" className="bg-blue-950 py-20 text-white">
-        <div className="mx-auto max-w-7xl px-6">
+    CONTACT
+========================= */}
+<section id="contact" className="bg-blue-950 py-20 text-white">
+  <div className="mx-auto max-w-7xl px-6">
 
-          <div className="grid gap-12 lg:grid-cols-2">
+    <div className="grid gap-12 lg:grid-cols-2">
 
-            <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-400">
-                Contact
-              </p>
+      <div>
+        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-400">
+          Contact
+        </p>
 
-              <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
-                Let's Build Knowledge Together
-              </h2>
+        <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
+          Let's Build Knowledge Together
+        </h2>
 
-              <p className="mt-6 max-w-xl leading-8 text-blue-100">
-                Whether you are a researcher, student, institution,
-                organization or potential partner, we welcome opportunities
-                for dialogue and collaboration.
-              </p>
+        <p className="mt-6 max-w-xl leading-8 text-blue-100">
+          Whether you are a researcher, student, institution,
+          organization or potential partner, we welcome opportunities
+          for dialogue and collaboration.
+        </p>
 
-              <div className="mt-10 space-y-6">
+        <div className="mt-10 space-y-6">
 
-                <div>
-                  <p className="text-sm font-semibold uppercase tracking-wider text-yellow-400">
-                    Location
-                  </p>
-                  <p className="mt-1 text-blue-100">
-                    Montreal, Quebec, Canada
-                  </p>
-                </div>
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-wider text-yellow-400">
+              Location
+            </p>
 
-                <div>
-                  <p className="text-sm font-semibold uppercase tracking-wider text-yellow-400">
-                    Organization
-                  </p>
-                  <p className="mt-1 text-blue-100">
-                    Académiques en Action — Laboratory R & RA
-                  </p>
-                </div>
-
-                <div>
-                  <p className="text-sm font-semibold uppercase tracking-wider text-yellow-400">
-                    Email
-                  </p>
-                             </div>
-
-            {/* Social Media */}
-            <div className="mt-10 flex flex-wrap justify-center gap-6 text-lg font-semibold">
-
-              <a
-                href="https://www.facebook.com/profile.php?id=61582416335658"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="transition hover:text-yellow-300"
-              >
-                👍 Facebook — Académiques en Action
-              </a>
-
-              <a
-                href="https://www.youtube.com/@Acad%C3%A9miquesenAction"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="transition hover:text-yellow-300"
-              >
-                ▶️ YouTube — Académiques en Action
-              </a>
-
-            </div>
-
+            <p className="mt-1 text-blue-100">
+              Montreal, Quebec, Canada
+            </p>
           </div>
+
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-wider text-yellow-400">
+              Organization
+            </p>
+
+            <p className="mt-1 text-blue-100">
+              Académiques en Action — Laboratory R & RA
+            </p>
+          </div>
+
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-wider text-yellow-400">
+              Email
+            </p>
+
+            <p className="mt-1 text-blue-100">
+              Contact us through the Académiques en Action platform.
+            </p>
+          </div>
+
         </div>
-      </section>
+
+        {/* Social Media */}
+        <div className="mt-10 flex flex-wrap gap-6 text-lg font-semibold">
+
+          <a
+            href="https://www.facebook.com/profile.php?id=61582416335658"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition hover:text-yellow-300"
+          >
+            👍 Facebook — Académiques en Action
+          </a>
+
+          <a
+            href="https://www.youtube.com/@Acad%C3%A9miquesenAction"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition hover:text-yellow-300"
+          >
+            ▶️ YouTube — Académiques en Action
+          </a>
+
+        </div>
+
+      </div>
+
+      <div className="rounded-2xl bg-white p-8 text-gray-900 shadow-xl">
+
+        <h3 className="text-2xl font-bold text-blue-950">
+          Send a Message
+        </h3>
+
+        <p className="mt-3 leading-7 text-gray-600">
+          Contact Académiques en Action for research, training,
+          academic collaboration or partnership opportunities.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
       {/* =========================
           FOOTER
