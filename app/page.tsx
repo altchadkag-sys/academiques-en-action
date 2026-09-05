@@ -1698,94 +1698,178 @@ export default function Home() {
         </div>
       </section>
 
+    {/* =========================
+    CONTACT
+========================== */}
+<section id="contact" className="bg-blue-950 px-6 py-24 text-white">
+  <div className="mx-auto max-w-6xl">
+
+    <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-400">
+      Contact
+    </p>
+
+    <h2 className="mt-3 text-3xl font-bold md:text-4xl">
+      Entrer en contact avec Académiques en Action
+    </h2>
+
+    <div className="mt-5 h-1 w-20 bg-yellow-400"></div>
+
+    <p className="mt-6 max-w-3xl text-lg leading-8 text-blue-100">
+      Pour toute question, proposition de partenariat, collaboration
+      scientifique ou information sur nos formations, vous pouvez nous
+      contacter.
+    </p>
+
+    <div className="mt-10 grid gap-10 lg:grid-cols-2">
 
       {/* =========================
-          CONTACT
+          INFORMATIONS DE CONTACT
       ========================== */}
-      <section id="contact" className="bg-blue-950 px-6 py-24 text-white">
-        <div className="mx-auto max-w-6xl">
+      <div className="rounded-3xl bg-blue-900 p-8 shadow-lg md:p-10">
 
-          <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-400">
-            Contact
-          </p>
+        <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-400">
+          Contact
+        </p>
 
-          <h2 className="mt-3 text-3xl font-bold md:text-4xl">
-            Entrer en contact avec Académiques en Action
-          </h2>
+        <h3 className="mt-3 text-[22px] font-bold">
+          Construisons ensemble une culture du savoir.
+        </h3>
 
-          <div className="mt-5 h-1 w-20 bg-yellow-400"></div>
+        <div className="mt-5 h-1 w-20 bg-yellow-400"></div>
 
-          <p className="mt-6 max-w-3xl text-lg leading-8 text-blue-100">
-            Pour toute question, proposition de partenariat, collaboration
-            scientifique ou information sur nos formations, vous pouvez nous
-            contacter.
-          </p>
+        <p className="mt-6 text-lg leading-8 text-blue-100">
+          Pour une collaboration, une formation, un projet de recherche ou
+          un accompagnement académique, contactez Académiques en Action.
+        </p>
 
-          <div className="mt-10 rounded-3xl bg-blue-900 p-8 text-center shadow-lg md:p-12">
+        <div className="mt-10 flex flex-col items-center gap-5">
 
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-yellow-400">
-              Contact
-            </p>
+          <a
+            href="mailto:contact@academiques-en-action.com"
+            className="inline-flex items-center rounded-full bg-yellow-400 px-8 py-4 font-bold text-blue-950 transition hover:bg-yellow-300"
+          >
+            contact@academiques-en-action.com
+          </a>
 
-            <h3 className="mt-3 text-[22px] font-bold">
-              Construisons ensemble une culture du savoir.
-            </h3>
+          <a
+            href="tel:+14389349894"
+            className="text-lg font-semibold transition hover:text-yellow-300"
+          >
+            📞 Téléphone : 1-438-934-9894
+          </a>
 
-            <div className="mx-auto mt-5 h-1 w-20 bg-yellow-400"></div>
+          <div className="flex flex-wrap justify-center gap-6 text-lg font-semibold">
 
-            <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-blue-100">
-              Pour une collaboration, une formation, un projet de recherche ou
-              un accompagnement académique, contactez Académiques en Action.
-            </p>
+            <a
+              href="https://www.facebook.com/profile.php?id=61582416335658"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-yellow-300"
+            >
+              👍 Facebook — Académiques en Action
+            </a>
 
-            <div className="mt-10 flex flex-col items-center gap-5">
-
-              <a
-                href="mailto:contact@academiques-en-action.com"
-                className="inline-flex items-center rounded-full bg-yellow-400 px-8 py-4 font-bold text-blue-950 transition hover:bg-yellow-300"
-              >
-                contact@academiques-en-action.com
-              </a>
-
-              <div className="flex flex-wrap justify-center gap-6 text-lg font-semibold">
-
-                <a
-                  href="tel:+14389349894"
-                  className="text-lg font-semibold transition hover:text-yellow-300"
-                >
-                  📞 Téléphone : 1-438-934-9894
-                </a>
-
-                <a
-                  href="https://www.facebook.com/profile.php?id=61582416335658"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="transition hover:text-yellow-300"
-                >
-                  👍 Facebook — Académiques en Action
-                </a>
-
-                <a
-                  href="https://www.youtube.com/@Acad%C3%A9miquesenAction"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="transition hover:text-yellow-300"
-                >
-                  ▶️ YouTube — Académiques en Action
-                </a>
-
-              </div>
-            </div>
-
-            <p className="mt-6 text-sm text-blue-200">
-              Laboratoire R & RA — Réflexion & Référence Africaine
-            </p>
+            <a
+              href="https://www.youtube.com/@Acad%C3%A9miquesenAction"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-yellow-300"
+            >
+              ▶️ YouTube — Académiques en Action
+            </a>
 
           </div>
-
         </div>
-      </section>
 
+        <p className="mt-6 text-sm text-blue-200">
+          Laboratoire R & RA — Réflexion & Référence Africaine
+        </p>
+
+      </div>
+
+
+      {/* =========================
+          FORMULAIRE
+      ========================== */}
+      <div className="rounded-3xl bg-white p-8 text-gray-900 shadow-xl md:p-10">
+
+        <h3 className="text-2xl font-bold text-blue-950">
+          Envoyer un message
+        </h3>
+
+        <p className="mt-3 leading-7 text-gray-600">
+          Contactez-nous pour toute question, collaboration scientifique,
+          formation ou proposition de partenariat.
+        </p>
+
+        <form className="mt-8 space-y-6">
+
+          <div>
+            <label
+              htmlFor="name"
+              className="mb-2 block text-sm font-semibold text-blue-950"
+            >
+              Nom
+            </label>
+
+            <input
+              id="name"
+              type="text"
+              name="name"
+              placeholder="Votre nom"
+              className="w-full rounded-lg border border-gray-300 px-4 py-3 outline-none transition focus:border-blue-900 focus:ring-2 focus:ring-blue-200"
+            />
+          </div>
+
+          <div>
+            <label
+              htmlFor="email"
+              className="mb-2 block text-sm font-semibold text-blue-950"
+            >
+              Email
+            </label>
+
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="votre@email.com"
+              className="w-full rounded-lg border border-gray-300 px-4 py-3 outline-none transition focus:border-blue-900 focus:ring-2 focus:ring-blue-200"
+            />
+          </div>
+
+          <div>
+            <label
+              htmlFor="message"
+              className="mb-2 block text-sm font-semibold text-blue-950"
+            >
+              Message
+            </label>
+
+            <textarea
+              id="message"
+              name="message"
+              rows={6}
+              placeholder="Votre message..."
+              className="w-full rounded-lg border border-gray-300 px-4 py-3 outline-none transition focus:border-blue-900 focus:ring-2 focus:ring-blue-200"
+            ></textarea>
+          </div>
+
+          <button
+            type="submit"
+            className="w-full rounded-lg bg-blue-950 px-6 py-3 font-semibold text-white transition hover:bg-blue-900"
+          >
+            Envoyer le message
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
       {/* =========================
           PIED DE PAGE
