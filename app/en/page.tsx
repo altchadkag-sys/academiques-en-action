@@ -257,12 +257,26 @@ export default function Home() {
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
 
             <div className="overflow-hidden rounded-2xl bg-white shadow-lg">
-              <img
-                src="/Fondateur 1.png"
-                alt="Dr. Samson N'Taadjèl KAGMATCHÉ, Founder and Director"
-                className="h-auto w-full object-cover"
-              />
-            </div>
+  <img
+    src="/Fondateur 1.png"
+    alt="Dr. Samson N'Taadjèl KAGMATCHÉ, Founder and Director"
+    className="h-auto w-full object-cover"
+  />
+
+  <div className="border-t-4 border-yellow-400 bg-blue-950 p-6 text-white">
+    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-400">
+      Founder and Director
+    </p>
+
+    <h3 className="mt-3 text-2xl font-bold">
+      Dr. Samson N'Taadjèl KAGMATCHÉ
+    </h3>
+
+    <p className="mt-3 text-sm leading-7 text-blue-100">
+      Académiques en Action — R & RA Laboratory
+    </p>
+  </div>
+</div>
 
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-600">
