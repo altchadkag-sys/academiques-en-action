@@ -1802,7 +1802,11 @@ export default function Home() {
           formation ou proposition de partenariat.
         </p>
 
-        <form className="mt-8 space-y-6">
+        <form
+  action="/api/contact"
+  method="POST"
+  className="mt-8 space-y-6"
+>
 
           <div>
             <label
