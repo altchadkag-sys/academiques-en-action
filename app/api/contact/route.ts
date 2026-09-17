@@ -44,6 +44,12 @@ ${message}`,
     );
   } catch (error) {
     console.error("Erreur formulaire de contact :", error);
+return NextResponse.json(
+  {
+    error: error instanceof Error ? error.message : String(error),
+  },
+  { status: 500 }
+);
 
     return NextResponse.json(
       { error: "Une erreur est survenue lors de l'envoi." },
