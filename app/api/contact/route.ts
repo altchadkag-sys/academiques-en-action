@@ -9,14 +9,13 @@ export async function POST(request: Request) {
     const name = formData.get("name")?.toString().trim();
     const email = formData.get("email")?.toString().trim();
     const message = formData.get("message")?.toString().trim();
-
-    if (!name || !email || !message) {
-      return NextResponse.json(
-        { error: "Tous les champs sont obligatoires." },
-        { status: 400 }
-      );
-    }
-
+if (!name || !email || !message) {
+  return NextResponse.json(
+    { error: "Tous les champs sont obligatoires." },
+    { status: 400 }
+  );
+}
+   
     const transporter = nodemailer.createTransport({
       host: "smtp.zoho.com",
       port: 465,
@@ -51,9 +50,5 @@ return NextResponse.json(
   { status: 500 }
 );
 
-    return NextResponse.json(
-      { error: "Une erreur est survenue lors de l'envoi." },
-      { status: 500 }
-    );
   }
 }
