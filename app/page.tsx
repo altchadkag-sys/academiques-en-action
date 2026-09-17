@@ -1745,10 +1745,10 @@ export default function Home() {
         <div className="mt-10 flex flex-col items-center gap-5">
 
           <a
-            href="mailto:contact@academiques-en-action.com"
+            href="mailto:contact@academiquesenaction.com"
             className="inline-flex items-center rounded-full bg-yellow-400 px-8 py-4 font-bold text-blue-950 transition hover:bg-yellow-300"
           >
-            contact@academiques-en-action.com
+            contact@academiquesenaction.com
           </a>
 
           <a
