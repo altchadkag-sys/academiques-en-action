@@ -90,7 +90,24 @@ export default function Home() {
       </a>
 
     </nav>
+    {/* Sélecteur de langue */}
+    <div className="hidden items-center gap-2 text-sm font-semibold lg:flex">
+      <a
+        href="/"
+        className="text-blue-950 transition hover:text-yellow-600"
+      >
+        🇫🇷 FR
+      </a>
 
+      <span className="text-gray-300">|</span>
+
+      <a
+        href="/en"
+        className="text-blue-950 transition hover:text-yellow-600"
+      >
+        🇬🇧 EN
+      </a>
+    </div>
     {/* Identité compacte sur mobile */}
     <div className="sm:hidden">
       <span className="text-sm font-bold text-blue-950">
