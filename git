@@ -1,3 +1,4 @@
 git add app/page.tsx
 git commit -m "Simplifier le sélecteur de langue"
 git push
+
