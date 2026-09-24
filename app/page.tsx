@@ -90,33 +90,28 @@ export default function Home() {
       </a>
 
     </nav>
-    {/* Sélecteur de langue */}
-    <div className="hidden items-center gap-2 text-sm font-semibold lg:flex">
-      <a
-        href="/"
-        className="text-blue-950 transition hover:text-yellow-600"
-      >
-        🇫🇷 FR
-      </a>
+   {/* Sélecteur de langue */}
+<div className="hidden items-center gap-2 text-sm font-semibold lg:flex">
+  <a
+    href="/"
+    className="text-blue-950 transition hover:text-yellow-600"
+    aria-label="Français"
+    title="Français"
+  >
+    🇫🇷
+  </a>
 
-      <span className="text-gray-300">|</span>
+  <span className="text-gray-300">|</span>
 
-      <a
-        href="/en"
-        className="text-blue-950 transition hover:text-yellow-600"
-      >
-        🇬🇧 EN
-      </a>
-    </div>
-    {/* Identité compacte sur mobile */}
-    <div className="sm:hidden">
-      <span className="text-sm font-bold text-blue-950">
-        Académiques
-      </span>
-    </div>
-
-  </div>
-</header>
+  <a
+    href="/en"
+    className="text-blue-950 transition hover:text-yellow-600"
+    aria-label="English"
+    title="English"
+  >
+    🇬🇧
+  </a>
+</div>
      
       {/* =========================
           HERO
