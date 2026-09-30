@@ -17,7 +17,7 @@ if (!name || !email || !message) {
 }
    
     const transporter = nodemailer.createTransport({
-      host: "smtp.zoho.com",
+      host: "smtp.zohocloud.ca",
       port: 465,
       secure: true,
       auth: {
