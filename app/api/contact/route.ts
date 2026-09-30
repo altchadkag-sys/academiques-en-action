@@ -37,10 +37,11 @@ Email : ${email}
 Message :
 ${message}`,
     });
-
-    return NextResponse.redirect(
-      new URL("/?message=success#contact", request.url)
-    );
+return NextResponse.redirect(
+  new URL("/?message=success#contact", request.url),
+  303
+);
+   
   } catch (error) {
     console.error("Erreur formulaire de contact :", error);
 return NextResponse.json(
